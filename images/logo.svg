@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" width="200" height="60">
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0066cc;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00a8e8;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Connection dots pattern -->
+  <circle cx="15" cy="15" r="2" fill="url(#logoGradient)" opacity="0.6"/>
+  <circle cx="15" cy="45" r="2" fill="url(#logoGradient)" opacity="0.6"/>
+  <circle cx="185" cy="15" r="2" fill="url(#logoGradient)" opacity="0.6"/>
+  <circle cx="185" cy="45" r="2" fill="url(#logoGradient)" opacity="0.6"/>
+  
+  <!-- Connection lines -->
+  <line x1="15" y1="15" x2="50" y2="30" stroke="url(#logoGradient)" stroke-width="0.5" opacity="0.3"/>
+  <line x1="15" y1="45" x2="50" y2="30" stroke="url(#logoGradient)" stroke-width="0.5" opacity="0.3"/>
+  <line x1="150" y1="30" x2="185" y2="15" stroke="url(#logoGradient)" stroke-width="0.5" opacity="0.3"/>
+  <line x1="150" y1="30" x2="185" y2="45" stroke="url(#logoGradient)" stroke-width="0.5" opacity="0.3"/>
+  
+  <!-- XMCN Text with tech style -->
+  <g filter="url(#glow)">
+    <!-- X -->
+    <path d="M 50 20 L 65 40 M 65 20 L 50 40" stroke="url(#logoGradient)" stroke-width="4" stroke-linecap="round" fill="none"/>
+    <circle cx="50" cy="20" r="2.5" fill="#00d4ff"/>
+    <circle cx="65" cy="40" r="2.5" fill="#00d4ff"/>
+    
+    <!-- M -->
+    <path d="M 75 40 L 75 20 L 85 32 L 95 20 L 95 40" stroke="url(#logoGradient)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <circle cx="75" cy="20" r="2.5" fill="#00d4ff"/>
+    <circle cx="95" cy="20" r="2.5" fill="#00d4ff"/>
+    
+    <!-- C -->
+    <path d="M 120 20 Q 105 20 105 30 Q 105 40 120 40" stroke="url(#logoGradient)" stroke-width="4" stroke-linecap="round" fill="none"/>
+    <circle cx="120" cy="20" r="2.5" fill="#00d4ff"/>
+    <circle cx="120" cy="40" r="2.5" fill="#00d4ff"/>
+    
+    <!-- N -->
+    <path d="M 130 40 L 130 20 L 145 40 L 145 20" stroke="url(#logoGradient)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <circle cx="130" cy="20" r="2.5" fill="#00d4ff"/>
+    <circle cx="145" cy="20" r="2.5" fill="#00d4ff"/>
+  </g>
+  
+  <!-- Connector icon element -->
+  <g transform="translate(160, 25)">
+    <rect x="0" y="0" width="12" height="10" rx="1" fill="none" stroke="url(#logoGradient)" stroke-width="1.5"/>
+    <line x1="12" y1="2" x2="18" y2="2" stroke="url(#logoGradient)" stroke-width="1.5"/>
+    <line x1="12" y1="5" x2="18" y2="5" stroke="url(#logoGradient)" stroke-width="1.5"/>
+    <line x1="12" y1="8" x2="18" y2="8" stroke="url(#logoGradient)" stroke-width="1.5"/>
+    <circle cx="19" cy="2" r="1.5" fill="#00d4ff"/>
+    <circle cx="19" cy="5" r="1.5" fill="#00d4ff"/>
+    <circle cx="19" cy="8" r="1.5" fill="#00d4ff"/>
+  </g>
+</svg>

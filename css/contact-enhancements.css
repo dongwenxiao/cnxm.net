@@ -1,0 +1,52 @@
+/* ==========================================
+   Contact Page Enhancements
+   Coming Soon badges for social media
+   ========================================== */
+
+.coming-soon-link {
+    position: relative;
+    opacity: 0.7;
+    cursor: not-allowed !important;
+}
+
+.coming-soon-link:hover {
+    opacity: 0.8;
+}
+
+.coming-soon-badge {
+    display: inline-block;
+    background: linear-gradient(135deg, #ff6b6b 0%, #ee5a6f 100%);
+    color: white;
+    font-size: 0.7rem;
+    padding: 0.15rem 0.5rem;
+    border-radius: 12px;
+    margin-left: 0.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    box-shadow: 0 2px 4px rgba(255, 107, 107, 0.3);
+}
+
+/* For social links large (contact page) */
+.social-links-large .coming-soon-link {
+    pointer-events: none;
+}
+
+.social-links-large .social-link {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+}
+
+.social-links-large .coming-soon-badge {
+    margin-left: auto;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .coming-soon-badge {
+        font-size: 0.65rem;
+        padding: 0.1rem 0.4rem;
+    }
+}

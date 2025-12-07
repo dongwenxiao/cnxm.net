@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Test - High Voltage Connectors</title>
+    <style>
+        body { font-family: Arial; padding: 20px; background: #f0f0f0; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 15px; }
+        .item { background: white; padding: 10px; border-radius: 8px; text-align: center; }
+        .item img { width: 100%; height: 150px; object-fit: contain; background: #fafafa; }
+        .item.error img { background: #ffe6e6; }
+        .code { font-family: monospace; font-size: 12px; color: #666; margin-top: 5px; }
+        .name { font-weight: bold; margin-top: 8px; font-size: 14px; }
+        h1 { color: #0066cc; }
+        .stats { background: white; padding: 15px; margin-bottom: 20px; border-radius: 8px; }
+    </style>
+    <script>
+        window.addEventListener('load', function() {
+            let loaded = 0, failed = 0;
+            const images = document.querySelectorAll('.item img');
+            images.forEach(img => {
+                const item = img.closest('.item');
+                img.onerror = function() {
+                    item.classList.add('error');
+                    failed++;
+                    updateStats();
+                };
+                img.onload = function() {
+                    loaded++;
+                    updateStats();
+                };
+            });
+            function updateStats() {
+                document.getElementById('loaded').textContent = loaded;
+                document.getElementById('failed').textContent = failed;
+                document.getElementById('total').textContent = images.length;
+            }
+        });
+    </script>
+</head>
+<body>
+    <h1>🔌 High Voltage Connectors - Image Test</h1>
+    <div class="stats">
+        <strong>Status:</strong> 
+        <span id="loaded">0</span> loaded | 
+        <span id="failed">0</span> failed | 
+        <span id="total">0</span> total
+    </div>
+    
+    <div class="grid">
+        <!-- Batch 1: HV-001 to HV-018 -->
+        <div class="item"><img src="images/products/connectors-high-voltage/HV-TC-001.jpg" alt="1"><div class="name">Terminal Connector Type 1</div><div class="code">HV-TC-001</div></div>
+        <div class="item"><img src="images/products/connectors-high-voltage/HV-TC-002.jpg" alt="2"><div class="name">Terminal Connector Type 2</div><div class="code">HV-TC-002</div></div>
+        <div class="item"><img src="images/products/connectors-high-voltage/HV-RTC-003.jpg" alt="3"><div class="name">Ring Terminal Connector</div><div class="code">HV-RTC-003</div></div>
+        <div class="item"><img src="images/products/connectors-high-voltage/HV-DTC-004.jpg" alt="4"><div class="name">Dual Row Terminal Connector</div><div class="code">HV-DTC-004</div></div>
+        <div class="item"><img src="images/products/connectors-high-voltage/HV-MTC-005.jpg" alt="5"><div class="name">Multi-Pin Terminal Connector</div><div class="code">HV-MTC-005</div></div>
+        <div class="item"><img src="images/products/connectors-high-voltage/HV-CTC-006.jpg" alt="6"><div class="name">Crimp Terminal Connector</div><div class="code">HV-CTC-006</div></div>
+        <div class="item"><img src="images/products/connectors-high-voltage/HV-UTC-007.jpg" alt="7"><div class="name">U-Type Terminal Connector</div><div class="code">HV-UTC-007</div></div>
+        <div class="item"><img src="images/products/connectors-high-voltage/HV-BTC-008.jpg" alt="8"><div class="name">Blade Terminal Connector</div><div class="code">HV-BTC-008</div></div>
+        <div class="item"><img src="images/products/connectors-high-voltage/HV-HTC-009.jpg" alt="9"><div class="name">Hook Terminal Connector</div><div class="code">HV-HTC-009</div></div>
+        <div class="item"><img src="images/products/connectors-high-voltage/HV-STC-010.jpg" alt="10"><div class="name">Socket Terminal Connector</div><div class="code">HV-STC-010</div></div>
+        <div class="item"><img src="images/products/connectors-high-voltage/HV-PTC-011.jpg" alt="11"><div class="name">Pin Terminal Connector</div><div class="code">HV-PTC-011</div></div>
+        <div class="item"><img src="images/products/connectors-high-voltage/HV-BRC-012.jpg" alt="12"><div class="name">Brass Terminal Connector</div><div class="code">HV-BRC-012</div></div>
+        <div class="item"><img src="images/products/connectors-high-voltage/HV-FTC-013.jpg" alt="13"><div class="name">Female Terminal Connector</div><div class="code">HV-FTC-013</div></div>
+        <div class="item"><img src="images/products/connectors-high-voltage/HV-WTC-014.jpg" alt="14"><div class="name">Wavy Terminal Connector</div><div class="code">HV-WTC-014</div></div>
+        <div class="item"><img src="images/products/connectors-high-voltage/HV-TTC-015.jpg" alt="15"><div class="name">Tab Terminal Connector</div><div class="code">HV-TTC-015</div></div>
+        <div class="item"><img src="images/products/connectors-high-voltage/HV-FK-016.jpg" alt="16"><div class="name">Fork Terminal Connector</div><div class="code">HV-FK-016</div></div>
+        <div class="item"><img src="images/products/connectors-high-voltage/HV-REC-017.jpg" alt="17"><div class="name">Receptacle Terminal Connector</div><div class="code">HV-REC-017</div></div>
+        <div class="item"><img src="images/products/connectors-high-voltage/HV-SPC-018.jpg" alt="18"><div class="name">Spring Terminal Connector</div><div class="code">HV-SPC-018</div></div>
+        
+        <!-- Batch 2: HV-019 to HV-036 -->
+        <div class="item"><img src="images/products/connectors-high-voltage/HV-SBT-019.jpg" alt="19"><div class="name">Silver Blade Terminal Strip</div><div class="code">HV-SBT-019</div></div>
+        <div class="item"><img src="images/products/connectors-high-voltage/HV-CBT-020.jpg" alt="20"><div class="name">Curved Blade Terminal Strip</div><div class="code">HV-CBT-020</div></div>
+        <div class="item"><img src="images/products/connectors-high-voltage/HV-SST-021.jpg" alt="21"><div class="name">Silver Socket Terminal Strip</div><div class="code">HV-SST-021</div></div>
+        <div class="item"><img src="images/products/connectors-high-voltage/HV-IBT-022.jpg" alt="22"><div class="name">Intricate Blade Terminal Strip</div><div class="code">HV-IBT-022</div></div>
+        <div class="item"><img src="images/products/connectors-high-voltage/HV-GFT-023.jpg" alt="23"><div class="name">Gold Ferrule Terminal Strip</div><div class="code">HV-GFT-023</div></div>
+        <div class="item"><img src="images/products/connectors-high-voltage/HV-BST-024.jpg" alt="24"><div class="name">Basic Silver Blade Terminal Strip</div><div class="code">HV-BST-024</div></div>
+        <div class="item"><img src="images/products/connectors-high-voltage/HV-CST-025.jpg" alt="25"><div class="name">Curved Silver Blade Terminal Strip</div><div class="code">HV-CST-025</div></div>
+        <div class="item"><img src="images/products/connectors-high-voltage/HV-VST-026.jpg" alt="26"><div class="name">Vertical Silver Socket Terminal Strip</div><div class="code">HV-VST-026</div></div>
+        <div class="item"><img src="images/products/connectors-high-voltage/HV-EGF-027.jpg" alt="27"><div class="name">Enclosed Gold Ferrule Terminal Strip</div><div class="code">HV-EGF-027</div></div>
+        <div class="item"><img src="images/products/connectors-high-voltage/HV-SRT-028.jpg" alt="28"><div class="name">Silver Ring Terminal Strip</div><div class="code">HV-SRT-028</div></div>
+        <div class="item"><img src="images/products/connectors-high-voltage/HV-DBT-029.jpg" alt="29"><div class="name">Decorative Blade Terminal Strip</div><div class="code">HV-DBT-029</div></div>
+        <div class="item"><img src="images/products/connectors-high-voltage/HV-RBT-030.jpg" alt="30"><div class="name">Rectangular Silver Blade Terminal Strip</div><div class="code">HV-RBT-030</div></div>
+        <div class="item"><img src="images/products/connectors-high-voltage/HV-SPT-031.jpg" alt="31"><div class="name">Spaced Blade Terminal Strip</div><div class="code">HV-SPT-031</div></div>
+        <div class="item"><img src="images/products/connectors-high-voltage/HV-TST-032.jpg" alt="32"><div class="name">Tubular Socket Terminal Strip</div><div class="code">HV-TST-032</div></div>
+        <div class="item"><img src="images/products/connectors-high-voltage/HV-GBF-033.jpg" alt="33"><div class="name">Gold Box Ferrule Terminal Strip</div><div class="code">HV-GBF-033</div></div>
+        <div class="item"><img src="images/products/connectors-high-voltage/HV-CRT-034.jpg" alt="34"><div class="name">Circular Ring Terminal Strip</div><div class="code">HV-CRT-034</div></div>
+        <div class="item"><img src="images/products/connectors-high-voltage/HV-SLS-035.jpg" alt="35"><div class="name">Slot Socket Terminal Strip</div><div class="code">HV-SLS-035</div></div>
+        <div class="item"><img src="images/products/connectors-high-voltage/HV-UST-036.jpg" alt="36"><div class="name">Universal Strip Terminal</div><div class="code">HV-UST-036</div></div>
+    </div>
+</body>
+</html>

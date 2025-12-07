@@ -116,12 +116,6 @@ function validateForm(data) {
         errors.push('Please enter a message with at least 10 characters');
     }
     
-    // Check agreement checkbox
-    const agreeCheckbox = document.getElementById('agree');
-    if (agreeCheckbox && !agreeCheckbox.checked) {
-        errors.push('Please agree to the privacy policy');
-    }
-    
     if (errors.length > 0) {
         showFormMessage('error', errors.join('<br>'));
         return false;

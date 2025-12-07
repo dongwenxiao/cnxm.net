@@ -1,0 +1,167 @@
+/* ==========================================
+   Vendor Prefixes for Browser Compatibility
+   Chrome, Edge, Safari, Firefox Support
+   ========================================== */
+
+/* Flexbox Support */
+.nav-wrapper,
+.logo,
+.nav-menu,
+.hero,
+.hero-buttons,
+.hero-stats,
+.about-grid,
+.products-grid,
+.product-card,
+.industries-grid,
+.advantages-grid,
+.footer-grid,
+.lang-btn,
+.lang-option {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+/* Align Items */
+.nav-wrapper,
+.logo,
+.nav-menu,
+.lang-btn,
+.lang-option {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+/* Justify Content */
+.nav-wrapper {
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.hero {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+/* Transitions */
+a,
+button,
+.btn,
+.nav-menu a,
+.lang-btn,
+.lang-option,
+.product-card {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+/* Transform */
+.btn:hover,
+.product-card:hover,
+.lang-btn:hover {
+    -webkit-transform: translateY(-2px);
+    -moz-transform: translateY(-2px);
+    -ms-transform: translateY(-2px);
+    -o-transform: translateY(-2px);
+    transform: translateY(-2px);
+}
+
+.lang-dropdown {
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+    transform: translateY(-10px);
+}
+
+.lang-dropdown.show {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+}
+
+/* Border Radius */
+.btn,
+.product-card,
+.lang-btn,
+.lang-dropdown {
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+}
+
+/* Box Shadow */
+.navbar,
+.product-card,
+.lang-btn:hover,
+.lang-dropdown {
+    -webkit-box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* Backdrop Filter */
+.navbar.scrolled {
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+
+/* User Select */
+.logo,
+.btn {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Appearance */
+button,
+input,
+select,
+textarea {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+/* Grid Support */
+.products-grid,
+.industries-grid,
+.advantages-grid,
+.footer-grid {
+    display: -ms-grid;
+    display: grid;
+}
+
+/* Smooth Scrolling */
+html {
+    -webkit-scroll-behavior: smooth;
+    -moz-scroll-behavior: smooth;
+    -ms-scroll-behavior: smooth;
+    scroll-behavior: smooth;
+}
+
+/* Background Clip for Text Effects */
+.hero-title .highlight {
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+}

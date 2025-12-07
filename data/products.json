@@ -1,0 +1,2027 @@
+{
+  "blue-base-low-voltage-connectors": {
+    "name": {
+      "en": "Blue Base Low Voltage Connectors",
+      "ja": "ブルーベース低電圧コネクタ",
+      "ru": "Низковольтные разъемы с синей базой",
+      "pt": "Conectores de Baixa Tensão Base Azul"
+    },
+    "index": 0,
+    "products": [
+      {
+        "index": 0,
+        "name": {
+          "en": "Dupont Lock Series Product 32",
+          "ja": "Dupont Lock Series Product 32",
+          "ru": "Dupont Lock Series Product 32",
+          "pt": "Dupont Lock Series Product 32"
+        },
+        "file": "products/Blue Base Low Voltage Connectors/dupont-lock-series-product-32.jpg"
+      },
+      {
+        "index": 1,
+        "name": {
+          "en": "Series 1 2 Product 21",
+          "ja": "Series 1 2 Product 21",
+          "ru": "Series 1 2 Product 21",
+          "pt": "Series 1 2 Product 21"
+        },
+        "file": "products/Blue Base Low Voltage Connectors/series-1-2-product-21.jpg"
+      },
+      {
+        "index": 2,
+        "name": {
+          "en": "Series 1 25 Featured Product 2",
+          "ja": "Series 1 25 Featured Product 2",
+          "ru": "Series 1 25 Featured Product 2",
+          "pt": "Series 1 25 Featured Product 2"
+        },
+        "file": "products/Blue Base Low Voltage Connectors/series-1-25-featured-product-2.jpg"
+      },
+      {
+        "index": 3,
+        "name": {
+          "en": "Series 1 58",
+          "ja": "Series 1 58",
+          "ru": "Series 1 58",
+          "pt": "Series 1 58"
+        },
+        "file": "products/Blue Base Low Voltage Connectors/series-1-58.jpg"
+      },
+      {
+        "index": 4,
+        "name": {
+          "en": "Series 2 1 Washing Machine Product 13",
+          "ja": "Series 2 1 Washing Machine Product 13",
+          "ru": "Series 2 1 Washing Machine Product 13",
+          "pt": "Series 2 1 Washing Machine Product 13"
+        },
+        "file": "products/Blue Base Low Voltage Connectors/series-2-1-washing-machine-product-13.jpg"
+      },
+      {
+        "index": 5,
+        "name": {
+          "en": "Series 2 3 Waterproof",
+          "ja": "Series 2 3 Waterproof",
+          "ru": "Series 2 3 Waterproof",
+          "pt": "Series 2 3 Waterproof"
+        },
+        "file": "products/Blue Base Low Voltage Connectors/series-2-3-waterproof.jpg"
+      },
+      {
+        "index": 6,
+        "name": {
+          "en": "Series 20022",
+          "ja": "Series 20022",
+          "ru": "Series 20022",
+          "pt": "Series 20022"
+        },
+        "file": "products/Blue Base Low Voltage Connectors/series-20022.jpg"
+      },
+      {
+        "index": 7,
+        "name": {
+          "en": "Series 25043",
+          "ja": "Series 25043",
+          "ru": "Series 25043",
+          "pt": "Series 25043"
+        },
+        "file": "products/Blue Base Low Voltage Connectors/series-25043.jpg"
+      },
+      {
+        "index": 8,
+        "name": {
+          "en": "Series 2510 Product 7",
+          "ja": "Series 2510 Product 7",
+          "ru": "Series 2510 Product 7",
+          "pt": "Series 2510 Product 7"
+        },
+        "file": "products/Blue Base Low Voltage Connectors/series-2510-product-7.jpg"
+      },
+      {
+        "index": 9,
+        "name": {
+          "en": "Series 3 96 Product 4",
+          "ja": "Series 3 96 Product 4",
+          "ru": "Series 3 96 Product 4",
+          "pt": "Series 3 96 Product 4"
+        },
+        "file": "products/Blue Base Low Voltage Connectors/series-3-96-product-4.jpg"
+      },
+      {
+        "index": 10,
+        "name": {
+          "en": "Series 5557 5559 Featured",
+          "ja": "Series 5557 5559 Featured",
+          "ru": "Series 5557 5559 Featured",
+          "pt": "Series 5557 5559 Featured"
+        },
+        "file": "products/Blue Base Low Voltage Connectors/series-5557-5559-featured.jpg"
+      },
+      {
+        "index": 11,
+        "name": {
+          "en": "Series El Product 38",
+          "ja": "Series El Product 38",
+          "ru": "Series El Product 38",
+          "pt": "Series El Product 38"
+        },
+        "file": "products/Blue Base Low Voltage Connectors/series-el-product-38.jpg"
+      },
+      {
+        "index": 12,
+        "name": {
+          "en": "Series H2506",
+          "ja": "Series H2506",
+          "ru": "Series H2506",
+          "pt": "Series H2506"
+        },
+        "file": "products/Blue Base Low Voltage Connectors/series-h2506.jpg"
+      },
+      {
+        "index": 13,
+        "name": {
+          "en": "Series Hy Featured Product 14",
+          "ja": "Series Hy Featured Product 14",
+          "ru": "Series Hy Featured Product 14",
+          "pt": "Series Hy Featured Product 14"
+        },
+        "file": "products/Blue Base Low Voltage Connectors/series-hy-featured-product-14.jpg"
+      },
+      {
+        "index": 14,
+        "name": {
+          "en": "Series Jc20 Product 40",
+          "ja": "Series Jc20 Product 40",
+          "ru": "Series Jc20 Product 40",
+          "pt": "Series Jc20 Product 40"
+        },
+        "file": "products/Blue Base Low Voltage Connectors/series-jc20-product-40.jpg"
+      },
+      {
+        "index": 15,
+        "name": {
+          "en": "Series Jc25 Featured Product 41",
+          "ja": "Series Jc25 Featured Product 41",
+          "ru": "Series Jc25 Featured Product 41",
+          "pt": "Series Jc25 Featured Product 41"
+        },
+        "file": "products/Blue Base Low Voltage Connectors/series-jc25-featured-product-41.jpg"
+      },
+      {
+        "index": 16,
+        "name": {
+          "en": "Series L6 2 Product 42",
+          "ja": "Series L6 2 Product 42",
+          "ru": "Series L6 2 Product 42",
+          "pt": "Series L6 2 Product 42"
+        },
+        "file": "products/Blue Base Low Voltage Connectors/series-l6-2-product-42.jpg"
+      },
+      {
+        "index": 17,
+        "name": {
+          "en": "Series Mx3 0 Featured Product 10",
+          "ja": "Series Mx3 0 Featured Product 10",
+          "ru": "Series Mx3 0 Featured Product 10",
+          "pt": "Series Mx3 0 Featured Product 10"
+        },
+        "file": "products/Blue Base Low Voltage Connectors/series-mx3-0-featured-product-10.jpg"
+      },
+      {
+        "index": 18,
+        "name": {
+          "en": "Series Ph Featured Product 18",
+          "ja": "Series Ph Featured Product 18",
+          "ru": "Series Ph Featured Product 18",
+          "pt": "Series Ph Featured Product 18"
+        },
+        "file": "products/Blue Base Low Voltage Connectors/series-ph-featured-product-18.jpg"
+      },
+      {
+        "index": 19,
+        "name": {
+          "en": "Series Phb Product 43",
+          "ja": "Series Phb Product 43",
+          "ru": "Series Phb Product 43",
+          "pt": "Series Phb Product 43"
+        },
+        "file": "products/Blue Base Low Voltage Connectors/series-phb-product-43.jpg"
+      },
+      {
+        "index": 20,
+        "name": {
+          "en": "Series San Product 45",
+          "ja": "Series San Product 45",
+          "ru": "Series San Product 45",
+          "pt": "Series San Product 45"
+        },
+        "file": "products/Blue Base Low Voltage Connectors/series-san-product-45.jpg"
+      },
+      {
+        "index": 21,
+        "name": {
+          "en": "Series Scn Product 46",
+          "ja": "Series Scn Product 46",
+          "ru": "Series Scn Product 46",
+          "pt": "Series Scn Product 46"
+        },
+        "file": "products/Blue Base Low Voltage Connectors/series-scn-product-46.jpg"
+      },
+      {
+        "index": 22,
+        "name": {
+          "en": "Series Sm Featured Product 47",
+          "ja": "Series Sm Featured Product 47",
+          "ru": "Series Sm Featured Product 47",
+          "pt": "Series Sm Featured Product 47"
+        },
+        "file": "products/Blue Base Low Voltage Connectors/series-sm-featured-product-47.jpg"
+      },
+      {
+        "index": 23,
+        "name": {
+          "en": "Series Vh Featured Product 22",
+          "ja": "Series Vh Featured Product 22",
+          "ru": "Series Vh Featured Product 22",
+          "pt": "Series Vh Featured Product 22"
+        },
+        "file": "products/Blue Base Low Voltage Connectors/series-vh-featured-product-22.jpg"
+      },
+      {
+        "index": 24,
+        "name": {
+          "en": "Series Xa",
+          "ja": "Series Xa",
+          "ru": "Series Xa",
+          "pt": "Series Xa"
+        },
+        "file": "products/Blue Base Low Voltage Connectors/series-xa.jpg"
+      },
+      {
+        "index": 25,
+        "name": {
+          "en": "Series Xh Product 24",
+          "ja": "Series Xh Product 24",
+          "ru": "Series Xh Product 24",
+          "pt": "Series Xh Product 24"
+        },
+        "file": "products/Blue Base Low Voltage Connectors/series-xh-product-24.jpg"
+      },
+      {
+        "index": 26,
+        "name": {
+          "en": "Series Xhb Featured Product 27",
+          "ja": "Series Xhb Featured Product 27",
+          "ru": "Series Xhb Featured Product 27",
+          "pt": "Series Xhb Featured Product 27"
+        },
+        "file": "products/Blue Base Low Voltage Connectors/series-xhb-featured-product-27.jpg"
+      },
+      {
+        "index": 27,
+        "name": {
+          "en": "Series Xhd",
+          "ja": "Series Xhd",
+          "ru": "Series Xhd",
+          "pt": "Series Xhd"
+        },
+        "file": "products/Blue Base Low Voltage Connectors/series-xhd.jpg"
+      },
+      {
+        "index": 28,
+        "name": {
+          "en": "Series Xhds",
+          "ja": "Series Xhds",
+          "ru": "Series Xhds",
+          "pt": "Series Xhds"
+        },
+        "file": "products/Blue Base Low Voltage Connectors/series-xhds.jpg"
+      },
+      {
+        "index": 29,
+        "name": {
+          "en": "Series Zh1 5 Featured Product 29",
+          "ja": "Series Zh1 5 Featured Product 29",
+          "ru": "Series Zh1 5 Featured Product 29",
+          "pt": "Series Zh1 5 Featured Product 29"
+        },
+        "file": "products/Blue Base Low Voltage Connectors/series-zh1-5-featured-product-29.jpg"
+      }
+    ]
+  },
+  "high-voltage-connectors": {
+    "name": {
+      "en": "High Voltage Connectors",
+      "ja": "高電圧コネクタ",
+      "ru": "Высоковольтные разъемы",
+      "pt": "Conectores de Alta Tensão"
+    },
+    "index": 1,
+    "products": [
+      {
+        "index": 0,
+        "name": {
+          "en": "110 Self Lock Terminal 2 8 Extended Lock",
+          "ja": "110 Self Lock Terminal 2 8 Extended Lock",
+          "ru": "110 Self Lock Terminal 2 8 Extended Lock",
+          "pt": "110 Self Lock Terminal 2 8 Extended Lock"
+        },
+        "file": "products/High Voltage Connectors/110-self-lock-terminal-2-8-extended-lock.jpg"
+      },
+      {
+        "index": 1,
+        "name": {
+          "en": "110 Self Lock Terminal 2 8 Lock",
+          "ja": "110 Self Lock Terminal 2 8 Lock",
+          "ru": "110 Self Lock Terminal 2 8 Lock",
+          "pt": "110 Self Lock Terminal 2 8 Lock"
+        },
+        "file": "products/High Voltage Connectors/110-self-lock-terminal-2-8-lock.jpg"
+      },
+      {
+        "index": 2,
+        "name": {
+          "en": "110 Terminal Right Angle Flag 2 8",
+          "ja": "110 Terminal Right Angle Flag 2 8",
+          "ru": "110 Terminal Right Angle Flag 2 8",
+          "pt": "110 Terminal Right Angle Flag 2 8"
+        },
+        "file": "products/High Voltage Connectors/110-terminal-right-angle-flag-2-8.jpg"
+      },
+      {
+        "index": 3,
+        "name": {
+          "en": "110 Terminal Straight 2 8 Inline Bridged",
+          "ja": "110 Terminal Straight 2 8 Inline Bridged",
+          "ru": "110 Terminal Straight 2 8 Inline Bridged",
+          "pt": "110 Terminal Straight 2 8 Inline Bridged"
+        },
+        "file": "products/High Voltage Connectors/110-terminal-straight-2-8-inline-bridged.jpg"
+      },
+      {
+        "index": 4,
+        "name": {
+          "en": "110 Terminal Straight 2 8 Low Leg",
+          "ja": "110 Terminal Straight 2 8 Low Leg",
+          "ru": "110 Terminal Straight 2 8 Low Leg",
+          "pt": "110 Terminal Straight 2 8 Low Leg"
+        },
+        "file": "products/High Voltage Connectors/110-terminal-straight-2-8-low-leg.jpg"
+      },
+      {
+        "index": 5,
+        "name": {
+          "en": "110 Terminal Straight 2 8 Middle Leg",
+          "ja": "110 Terminal Straight 2 8 Middle Leg",
+          "ru": "110 Terminal Straight 2 8 Middle Leg",
+          "pt": "110 Terminal Straight 2 8 Middle Leg"
+        },
+        "file": "products/High Voltage Connectors/110-terminal-straight-2-8-middle-leg.jpg"
+      },
+      {
+        "index": 6,
+        "name": {
+          "en": "187 Flag Terminal 4 8 Bent",
+          "ja": "187 Flag Terminal 4 8 Bent",
+          "ru": "187 Flag Terminal 4 8 Bent",
+          "pt": "187 Flag Terminal 4 8 Bent"
+        },
+        "file": "products/High Voltage Connectors/187-flag-terminal-4-8-bent.jpg"
+      },
+      {
+        "index": 7,
+        "name": {
+          "en": "187 Leaf Tab Terminal 4 8 0 8mm",
+          "ja": "187 Leaf Tab Terminal 4 8 0 8mm",
+          "ru": "187 Leaf Tab Terminal 4 8 0 8mm",
+          "pt": "187 Leaf Tab Terminal 4 8 0 8mm"
+        },
+        "file": "products/High Voltage Connectors/187-leaf-tab-terminal-4-8-0-8mm.jpg"
+      },
+      {
+        "index": 8,
+        "name": {
+          "en": "187 Locked Flag Terminal 4 8",
+          "ja": "187 Locked Flag Terminal 4 8",
+          "ru": "187 Locked Flag Terminal 4 8",
+          "pt": "187 Locked Flag Terminal 4 8"
+        },
+        "file": "products/High Voltage Connectors/187-locked-flag-terminal-4-8.jpg"
+      },
+      {
+        "index": 9,
+        "name": {
+          "en": "187 Self Lock Terminal 4 8 Straight Lock Tab",
+          "ja": "187 Self Lock Terminal 4 8 Straight Lock Tab",
+          "ru": "187 Self Lock Terminal 4 8 Straight Lock Tab",
+          "pt": "187 Self Lock Terminal 4 8 Straight Lock Tab"
+        },
+        "file": "products/High Voltage Connectors/187-self-lock-terminal-4-8-straight-lock-tab.jpg"
+      },
+      {
+        "index": 10,
+        "name": {
+          "en": "187 Straight Tab Terminal 4 8 Inline",
+          "ja": "187 Straight Tab Terminal 4 8 Inline",
+          "ru": "187 Straight Tab Terminal 4 8 Inline",
+          "pt": "187 Straight Tab Terminal 4 8 Inline"
+        },
+        "file": "products/High Voltage Connectors/187-straight-tab-terminal-4-8-inline.jpg"
+      },
+      {
+        "index": 11,
+        "name": {
+          "en": "2 35 Round Tube Terminal 2 4mm",
+          "ja": "2 35 Round Tube Terminal 2 4mm",
+          "ru": "2 35 Round Tube Terminal 2 4mm",
+          "pt": "2 35 Round Tube Terminal 2 4mm"
+        },
+        "file": "products/High Voltage Connectors/2-35-round-tube-terminal-2-4mm.jpg"
+      },
+      {
+        "index": 12,
+        "name": {
+          "en": "2 6 Ring Terminal Ground 2 6 4 8 0 3",
+          "ja": "2 6 Ring Terminal Ground 2 6 4 8 0 3",
+          "ru": "2 6 Ring Terminal Ground 2 6 4 8 0 3",
+          "pt": "2 6 Ring Terminal Ground 2 6 4 8 0 3"
+        },
+        "file": "products/High Voltage Connectors/2-6-ring-terminal-ground-2-6-4-8-0-3.jpg"
+      },
+      {
+        "index": 13,
+        "name": {
+          "en": "2 8 Anti Reverse Terminal 110 Barbed",
+          "ja": "2 8 Anti Reverse Terminal 110 Barbed",
+          "ru": "2 8 Anti Reverse Terminal 110 Barbed",
+          "pt": "2 8 Anti Reverse Terminal 110 Barbed"
+        },
+        "file": "products/High Voltage Connectors/2-8-anti-reverse-terminal-110-barbed.jpg"
+      },
+      {
+        "index": 14,
+        "name": {
+          "en": "2 8 Crimp Tab Barbed",
+          "ja": "2 8 Crimp Tab Barbed",
+          "ru": "2 8 Crimp Tab Barbed",
+          "pt": "2 8 Crimp Tab Barbed"
+        },
+        "file": "products/High Voltage Connectors/2-8-crimp-tab-barbed.jpg"
+      },
+      {
+        "index": 15,
+        "name": {
+          "en": "2 8 Crimp Tab Wrapped",
+          "ja": "2 8 Crimp Tab Wrapped",
+          "ru": "2 8 Crimp Tab Wrapped",
+          "pt": "2 8 Crimp Tab Wrapped"
+        },
+        "file": "products/High Voltage Connectors/2-8-crimp-tab-wrapped.jpg"
+      },
+      {
+        "index": 16,
+        "name": {
+          "en": "250 Flag Terminal 6 3 Bent",
+          "ja": "250 Flag Terminal 6 3 Bent",
+          "ru": "250 Flag Terminal 6 3 Bent",
+          "pt": "250 Flag Terminal 6 3 Bent"
+        },
+        "file": "products/High Voltage Connectors/250-flag-terminal-6-3-bent.jpg"
+      },
+      {
+        "index": 17,
+        "name": {
+          "en": "250 Locked Flag Terminal 6 3 Bent",
+          "ja": "250 Locked Flag Terminal 6 3 Bent",
+          "ru": "250 Locked Flag Terminal 6 3 Bent",
+          "pt": "250 Locked Flag Terminal 6 3 Bent"
+        },
+        "file": "products/High Voltage Connectors/250-locked-flag-terminal-6-3-bent.jpg"
+      },
+      {
+        "index": 18,
+        "name": {
+          "en": "250 Locked Terminal 6 3 Straight Mid Leg",
+          "ja": "250 Locked Terminal 6 3 Straight Mid Leg",
+          "ru": "250 Locked Terminal 6 3 Straight Mid Leg",
+          "pt": "250 Locked Terminal 6 3 Straight Mid Leg"
+        },
+        "file": "products/High Voltage Connectors/250-locked-terminal-6-3-straight-mid-leg.jpg"
+      },
+      {
+        "index": 19,
+        "name": {
+          "en": "250 Straight Terminal 6 3 Inline Mid Leg",
+          "ja": "250 Straight Terminal 6 3 Inline Mid Leg",
+          "ru": "250 Straight Terminal 6 3 Inline Mid Leg",
+          "pt": "250 Straight Terminal 6 3 Inline Mid Leg"
+        },
+        "file": "products/High Voltage Connectors/250-straight-terminal-6-3-inline-mid-leg.jpg"
+      },
+      {
+        "index": 20,
+        "name": {
+          "en": "250 Straight Terminal 6 3 Mid Leg",
+          "ja": "250 Straight Terminal 6 3 Mid Leg",
+          "ru": "250 Straight Terminal 6 3 Mid Leg",
+          "pt": "250 Straight Terminal 6 3 Mid Leg"
+        },
+        "file": "products/High Voltage Connectors/250-straight-terminal-6-3-mid-leg.jpg"
+      },
+      {
+        "index": 21,
+        "name": {
+          "en": "3 2 Ring Terminal Ground",
+          "ja": "3 2 Ring Terminal Ground",
+          "ru": "3 2 Ring Terminal Ground",
+          "pt": "3 2 Ring Terminal Ground"
+        },
+        "file": "products/High Voltage Connectors/3-2-ring-terminal-ground.jpg"
+      },
+      {
+        "index": 22,
+        "name": {
+          "en": "3 2 Y Ring U Fork Terminal",
+          "ja": "3 2 Y Ring U Fork Terminal",
+          "ru": "3 2 Y Ring U Fork Terminal",
+          "pt": "3 2 Y Ring U Fork Terminal"
+        },
+        "file": "products/High Voltage Connectors/3-2-y-ring-u-fork-terminal.jpg"
+      },
+      {
+        "index": 23,
+        "name": {
+          "en": "4 0 Bullet Female 3 96 Gourd Head Bridged",
+          "ja": "4 0 Bullet Female 3 96 Gourd Head Bridged",
+          "ru": "4 0 Bullet Female 3 96 Gourd Head Bridged",
+          "pt": "4 0 Bullet Female 3 96 Gourd Head Bridged"
+        },
+        "file": "products/High Voltage Connectors/4-0-bullet-female-3-96-gourd-head-bridged.jpg"
+      },
+      {
+        "index": 24,
+        "name": {
+          "en": "4 0 Bullet Female 3 96 Gourd Head",
+          "ja": "4 0 Bullet Female 3 96 Gourd Head",
+          "ru": "4 0 Bullet Female 3 96 Gourd Head",
+          "pt": "4 0 Bullet Female 3 96 Gourd Head"
+        },
+        "file": "products/High Voltage Connectors/4-0-bullet-female-3-96-gourd-head.jpg"
+      },
+      {
+        "index": 25,
+        "name": {
+          "en": "4 0 Bullet Male 3 96 Gourd Head Bridged",
+          "ja": "4 0 Bullet Male 3 96 Gourd Head Bridged",
+          "ru": "4 0 Bullet Male 3 96 Gourd Head Bridged",
+          "pt": "4 0 Bullet Male 3 96 Gourd Head Bridged"
+        },
+        "file": "products/High Voltage Connectors/4-0-bullet-male-3-96-gourd-head-bridged.jpg"
+      },
+      {
+        "index": 26,
+        "name": {
+          "en": "4 0 Bullet Male 3 96 Gourd Head",
+          "ja": "4 0 Bullet Male 3 96 Gourd Head",
+          "ru": "4 0 Bullet Male 3 96 Gourd Head",
+          "pt": "4 0 Bullet Male 3 96 Gourd Head"
+        },
+        "file": "products/High Voltage Connectors/4-0-bullet-male-3-96-gourd-head.jpg"
+      },
+      {
+        "index": 27,
+        "name": {
+          "en": "4 2 Ring Terminal Ground 0 8mm",
+          "ja": "4 2 Ring Terminal Ground 0 8mm",
+          "ru": "4 2 Ring Terminal Ground 0 8mm",
+          "pt": "4 2 Ring Terminal Ground 0 8mm"
+        },
+        "file": "products/High Voltage Connectors/4-2-ring-terminal-ground-0-8mm.jpg"
+      },
+      {
+        "index": 28,
+        "name": {
+          "en": "4 2 Ring Terminal Ground",
+          "ja": "4 2 Ring Terminal Ground",
+          "ru": "4 2 Ring Terminal Ground",
+          "pt": "4 2 Ring Terminal Ground"
+        },
+        "file": "products/High Voltage Connectors/4-2-ring-terminal-ground.jpg"
+      },
+      {
+        "index": 29,
+        "name": {
+          "en": "4 2 Y Ring U Fork Terminal",
+          "ja": "4 2 Y Ring U Fork Terminal",
+          "ru": "4 2 Y Ring U Fork Terminal",
+          "pt": "4 2 Y Ring U Fork Terminal"
+        },
+        "file": "products/High Voltage Connectors/4-2-y-ring-u-fork-terminal.jpg"
+      },
+      {
+        "index": 30,
+        "name": {
+          "en": "4 3 Ring Terminal Ground Low Leg",
+          "ja": "4 3 Ring Terminal Ground Low Leg",
+          "ru": "4 3 Ring Terminal Ground Low Leg",
+          "pt": "4 3 Ring Terminal Ground Low Leg"
+        },
+        "file": "products/High Voltage Connectors/4-3-ring-terminal-ground-low-leg.jpg"
+      },
+      {
+        "index": 31,
+        "name": {
+          "en": "4 3 Ring Terminal Ground Mid Leg",
+          "ja": "4 3 Ring Terminal Ground Mid Leg",
+          "ru": "4 3 Ring Terminal Ground Mid Leg",
+          "pt": "4 3 Ring Terminal Ground Mid Leg"
+        },
+        "file": "products/High Voltage Connectors/4-3-ring-terminal-ground-mid-leg.jpg"
+      },
+      {
+        "index": 32,
+        "name": {
+          "en": "4 3 Y Ring U Fork Terminal Inline",
+          "ja": "4 3 Y Ring U Fork Terminal Inline",
+          "ru": "4 3 Y Ring U Fork Terminal Inline",
+          "pt": "4 3 Y Ring U Fork Terminal Inline"
+        },
+        "file": "products/High Voltage Connectors/4-3-y-ring-u-fork-terminal-inline.jpg"
+      },
+      {
+        "index": 33,
+        "name": {
+          "en": "4 8 Back Lock Spring 187 Back Insert Shoulder",
+          "ja": "4 8 Back Lock Spring 187 Back Insert Shoulder",
+          "ru": "4 8 Back Lock Spring 187 Back Insert Shoulder",
+          "pt": "4 8 Back Lock Spring 187 Back Insert Shoulder"
+        },
+        "file": "products/High Voltage Connectors/4-8-back-lock-spring-187-back-insert-shoulder.jpg"
+      },
+      {
+        "index": 34,
+        "name": {
+          "en": "4 8 Double Wrapped Flag 187 Locked Spring",
+          "ja": "4 8 Double Wrapped Flag 187 Locked Spring",
+          "ru": "4 8 Double Wrapped Flag 187 Locked Spring",
+          "pt": "4 8 Double Wrapped Flag 187 Locked Spring"
+        },
+        "file": "products/High Voltage Connectors/4-8-double-wrapped-flag-187-locked-spring.jpg"
+      },
+      {
+        "index": 35,
+        "name": {
+          "en": "4 8 Locked Terminal 187 Spring Low Leg",
+          "ja": "4 8 Locked Terminal 187 Spring Low Leg",
+          "ru": "4 8 Locked Terminal 187 Spring Low Leg",
+          "pt": "4 8 Locked Terminal 187 Spring Low Leg"
+        },
+        "file": "products/High Voltage Connectors/4-8-locked-terminal-187-spring-low-leg.jpg"
+      },
+      {
+        "index": 36,
+        "name": {
+          "en": "4 8 Locked Terminal 187 Straight Low Leg",
+          "ja": "4 8 Locked Terminal 187 Straight Low Leg",
+          "ru": "4 8 Locked Terminal 187 Straight Low Leg",
+          "pt": "4 8 Locked Terminal 187 Straight Low Leg"
+        },
+        "file": "products/High Voltage Connectors/4-8-locked-terminal-187-straight-low-leg.jpg"
+      },
+      {
+        "index": 37,
+        "name": {
+          "en": "4 8 Straight Terminal 187 Spring Straight Type",
+          "ja": "4 8 Straight Terminal 187 Spring Straight Type",
+          "ru": "4 8 Straight Terminal 187 Spring Straight Type",
+          "pt": "4 8 Straight Terminal 187 Spring Straight Type"
+        },
+        "file": "products/High Voltage Connectors/4-8-straight-terminal-187-spring-straight-type.jpg"
+      },
+      {
+        "index": 38,
+        "name": {
+          "en": "4 8 Straight Terminal 187 Spring",
+          "ja": "4 8 Straight Terminal 187 Spring",
+          "ru": "4 8 Straight Terminal 187 Spring",
+          "pt": "4 8 Straight Terminal 187 Spring"
+        },
+        "file": "products/High Voltage Connectors/4-8-straight-terminal-187-spring.jpg"
+      },
+      {
+        "index": 39,
+        "name": {
+          "en": "5 0 Ring Terminal Ground",
+          "ja": "5 0 Ring Terminal Ground",
+          "ru": "5 0 Ring Terminal Ground",
+          "pt": "5 0 Ring Terminal Ground"
+        },
+        "file": "products/High Voltage Connectors/5-0-ring-terminal-ground.jpg"
+      },
+      {
+        "index": 40,
+        "name": {
+          "en": "5 2 Fuse Clip Terminal Automotive Cup",
+          "ja": "5 2 Fuse Clip Terminal Automotive Cup",
+          "ru": "5 2 Fuse Clip Terminal Automotive Cup",
+          "pt": "5 2 Fuse Clip Terminal Automotive Cup"
+        },
+        "file": "products/High Voltage Connectors/5-2-fuse-clip-terminal-automotive-cup.jpg"
+      },
+      {
+        "index": 41,
+        "name": {
+          "en": "5 3 Ring Terminal Ground",
+          "ja": "5 3 Ring Terminal Ground",
+          "ru": "5 3 Ring Terminal Ground",
+          "pt": "5 3 Ring Terminal Ground"
+        },
+        "file": "products/High Voltage Connectors/5-3-ring-terminal-ground.jpg"
+      },
+      {
+        "index": 42,
+        "name": {
+          "en": "6 3 Anti Reverse Terminal 250 Barbed",
+          "ja": "6 3 Anti Reverse Terminal 250 Barbed",
+          "ru": "6 3 Anti Reverse Terminal 250 Barbed",
+          "pt": "6 3 Anti Reverse Terminal 250 Barbed"
+        },
+        "file": "products/High Voltage Connectors/6-3-anti-reverse-terminal-250-barbed.jpg"
+      },
+      {
+        "index": 43,
+        "name": {
+          "en": "6 3 Back Lock Spring 250 Shoulder",
+          "ja": "6 3 Back Lock Spring 250 Shoulder",
+          "ru": "6 3 Back Lock Spring 250 Shoulder",
+          "pt": "6 3 Back Lock Spring 250 Shoulder"
+        },
+        "file": "products/High Voltage Connectors/6-3-back-lock-spring-250-shoulder.jpg"
+      },
+      {
+        "index": 44,
+        "name": {
+          "en": "6 3 Crimp Tab Barbed",
+          "ja": "6 3 Crimp Tab Barbed",
+          "ru": "6 3 Crimp Tab Barbed",
+          "pt": "6 3 Crimp Tab Barbed"
+        },
+        "file": "products/High Voltage Connectors/6-3-crimp-tab-barbed.jpg"
+      },
+      {
+        "index": 45,
+        "name": {
+          "en": "6 3 Double Wrapped Flag 250 Locked Spring Mid Leg",
+          "ja": "6 3 Double Wrapped Flag 250 Locked Spring Mid Leg",
+          "ru": "6 3 Double Wrapped Flag 250 Locked Spring Mid Leg",
+          "pt": "6 3 Double Wrapped Flag 250 Locked Spring Mid Leg"
+        },
+        "file": "products/High Voltage Connectors/6-3-double-wrapped-flag-250-locked-spring-mid-leg.jpg"
+      },
+      {
+        "index": 46,
+        "name": {
+          "en": "6 3 Double Wrapped Flag 250 Locked Spring",
+          "ja": "6 3 Double Wrapped Flag 250 Locked Spring",
+          "ru": "6 3 Double Wrapped Flag 250 Locked Spring",
+          "pt": "6 3 Double Wrapped Flag 250 Locked Spring"
+        },
+        "file": "products/High Voltage Connectors/6-3-double-wrapped-flag-250-locked-spring.jpg"
+      },
+      {
+        "index": 47,
+        "name": {
+          "en": "6 3 Insert Tab 250 Wire Wrap",
+          "ja": "6 3 Insert Tab 250 Wire Wrap",
+          "ru": "6 3 Insert Tab 250 Wire Wrap",
+          "pt": "6 3 Insert Tab 250 Wire Wrap"
+        },
+        "file": "products/High Voltage Connectors/6-3-insert-tab-250-wire-wrap.jpg"
+      },
+      {
+        "index": 48,
+        "name": {
+          "en": "6 3 Insert Tab Double Layer 250 Wire Wrap Double",
+          "ja": "6 3 Insert Tab Double Layer 250 Wire Wrap Double",
+          "ru": "6 3 Insert Tab Double Layer 250 Wire Wrap Double",
+          "pt": "6 3 Insert Tab Double Layer 250 Wire Wrap Double"
+        },
+        "file": "products/High Voltage Connectors/6-3-insert-tab-double-layer-250-wire-wrap-double.jpg"
+      },
+      {
+        "index": 49,
+        "name": {
+          "en": "6 3 Ring Terminal Ground",
+          "ja": "6 3 Ring Terminal Ground",
+          "ru": "6 3 Ring Terminal Ground",
+          "pt": "6 3 Ring Terminal Ground"
+        },
+        "file": "products/High Voltage Connectors/6-3-ring-terminal-ground.jpg"
+      },
+      {
+        "index": 50,
+        "name": {
+          "en": "6 3 Spring Terminal 250 Straight Low Leg",
+          "ja": "6 3 Spring Terminal 250 Straight Low Leg",
+          "ru": "6 3 Spring Terminal 250 Straight Low Leg",
+          "pt": "6 3 Spring Terminal 250 Straight Low Leg"
+        },
+        "file": "products/High Voltage Connectors/6-3-spring-terminal-250-straight-low-leg.jpg"
+      },
+      {
+        "index": 51,
+        "name": {
+          "en": "6 3 Spring Terminal 250 Straight Mid Leg",
+          "ja": "6 3 Spring Terminal 250 Straight Mid Leg",
+          "ru": "6 3 Spring Terminal 250 Straight Mid Leg",
+          "pt": "6 3 Spring Terminal 250 Straight Mid Leg"
+        },
+        "file": "products/High Voltage Connectors/6-3-spring-terminal-250-straight-mid-leg.jpg"
+      },
+      {
+        "index": 52,
+        "name": {
+          "en": "6 3 Square Insert Terminal",
+          "ja": "6 3 Square Insert Terminal",
+          "ru": "6 3 Square Insert Terminal",
+          "pt": "6 3 Square Insert Terminal"
+        },
+        "file": "products/High Voltage Connectors/6-3-square-insert-terminal.jpg"
+      },
+      {
+        "index": 53,
+        "name": {
+          "en": "Shark Tooth Serrated Terminal U Type",
+          "ja": "Shark Tooth Serrated Terminal U Type",
+          "ru": "Shark Tooth Serrated Terminal U Type",
+          "pt": "Shark Tooth Serrated Terminal U Type"
+        },
+        "file": "products/High Voltage Connectors/shark-tooth-serrated-terminal-u-type.jpg"
+      },
+      {
+        "index": 54,
+        "name": {
+          "en": "Sin2 6 Board Terminal",
+          "ja": "Sin2 6 Board Terminal",
+          "ru": "Sin2 6 Board Terminal",
+          "pt": "Sin2 6 Board Terminal"
+        },
+        "file": "products/High Voltage Connectors/sin2-6-board-terminal.jpg"
+      },
+      {
+        "index": 55,
+        "name": {
+          "en": "U Clamp Copper Crimp 1 9",
+          "ja": "U Clamp Copper Crimp 1 9",
+          "ru": "U Clamp Copper Crimp 1 9",
+          "pt": "U Clamp Copper Crimp 1 9"
+        },
+        "file": "products/High Voltage Connectors/u-clamp-copper-crimp-1-9.jpg"
+      },
+      {
+        "index": 56,
+        "name": {
+          "en": "U Clamp Copper Crimp 454a",
+          "ja": "U Clamp Copper Crimp 454a",
+          "ru": "U Clamp Copper Crimp 454a",
+          "pt": "U Clamp Copper Crimp 454a"
+        },
+        "file": "products/High Voltage Connectors/u-clamp-copper-crimp-454a.jpg"
+      },
+      {
+        "index": 57,
+        "name": {
+          "en": "U Clamp Copper Crimp 454a1",
+          "ja": "U Clamp Copper Crimp 454a1",
+          "ru": "U Clamp Copper Crimp 454a1",
+          "pt": "U Clamp Copper Crimp 454a1"
+        },
+        "file": "products/High Voltage Connectors/u-clamp-copper-crimp-454a1.jpg"
+      },
+      {
+        "index": 58,
+        "name": {
+          "en": "U Clamp Copper Crimp 454a2",
+          "ja": "U Clamp Copper Crimp 454a2",
+          "ru": "U Clamp Copper Crimp 454a2",
+          "pt": "U Clamp Copper Crimp 454a2"
+        },
+        "file": "products/High Voltage Connectors/u-clamp-copper-crimp-454a2.jpg"
+      },
+      {
+        "index": 59,
+        "name": {
+          "en": "U Clamp Copper Crimp 454b",
+          "ja": "U Clamp Copper Crimp 454b",
+          "ru": "U Clamp Copper Crimp 454b",
+          "pt": "U Clamp Copper Crimp 454b"
+        },
+        "file": "products/High Voltage Connectors/u-clamp-copper-crimp-454b.jpg"
+      },
+      {
+        "index": 60,
+        "name": {
+          "en": "U Clamp Copper Crimp 454c",
+          "ja": "U Clamp Copper Crimp 454c",
+          "ru": "U Clamp Copper Crimp 454c",
+          "pt": "U Clamp Copper Crimp 454c"
+        },
+        "file": "products/High Voltage Connectors/u-clamp-copper-crimp-454c.jpg"
+      }
+    ]
+  },
+  "low-voltage-connectors": {
+    "name": {
+      "en": "Low Voltage Connectors",
+      "ja": "低電圧コネクタ",
+      "ru": "Низковольтные разъемы",
+      "pt": "Conectores de Baixa Tensão"
+    },
+    "index": 2,
+    "products": [
+      {
+        "index": 0,
+        "name": {
+          "en": "Automotive Connector 110 2 8 4 0 5 0mm",
+          "ja": "Automotive Connector 110 2 8 4 0 5 0mm",
+          "ru": "Automotive Connector 110 2 8 4 0 5 0mm",
+          "pt": "Automotive Connector 110 2 8 4 0 5 0mm"
+        },
+        "file": "products/Low Voltage Connectors/automotive-connector-110-2-8-4-0-5-0mm.jpg"
+      },
+      {
+        "index": 1,
+        "name": {
+          "en": "Automotive Connector 250 6 3 9 0 6 0mm",
+          "ja": "Automotive Connector 250 6 3 9 0 6 0mm",
+          "ru": "Automotive Connector 250 6 3 9 0 6 0mm",
+          "pt": "Automotive Connector 250 6 3 9 0 6 0mm"
+        },
+        "file": "products/Low Voltage Connectors/automotive-connector-250-6-3-9-0-6-0mm.jpg"
+      },
+      {
+        "index": 2,
+        "name": {
+          "en": "Cm201 Fuse Tube Terminal",
+          "ja": "Cm201 Fuse Tube Terminal",
+          "ru": "Cm201 Fuse Tube Terminal",
+          "pt": "Cm201 Fuse Tube Terminal"
+        },
+        "file": "products/Low Voltage Connectors/cm201-fuse-tube-terminal.jpg"
+      },
+      {
+        "index": 3,
+        "name": {
+          "en": "Dupont 2 0 Dual Row Strip Connector 2 0mm",
+          "ja": "Dupont 2 0 Dual Row Strip Connector 2 0mm",
+          "ru": "Dupont 2 0 Dual Row Strip Connector 2 0mm",
+          "pt": "Dupont 2 0 Dual Row Strip Connector 2 0mm"
+        },
+        "file": "products/Low Voltage Connectors/dupont-2-0-dual-row-strip-connector-2-0mm.jpg"
+      },
+      {
+        "index": 4,
+        "name": {
+          "en": "Dupont 2 0 Single Row Strip Connector 2 0mm",
+          "ja": "Dupont 2 0 Single Row Strip Connector 2 0mm",
+          "ru": "Dupont 2 0 Single Row Strip Connector 2 0mm",
+          "pt": "Dupont 2 0 Single Row Strip Connector 2 0mm"
+        },
+        "file": "products/Low Voltage Connectors/dupont-2-0-single-row-strip-connector-2-0mm.jpg"
+      },
+      {
+        "index": 5,
+        "name": {
+          "en": "Dupont 2 54 Tjc8 Dual Row Strip Connector 2 54mm",
+          "ja": "Dupont 2 54 Tjc8 Dual Row Strip Connector 2 54mm",
+          "ru": "Dupont 2 54 Tjc8 Dual Row Strip Connector 2 54mm",
+          "pt": "Dupont 2 54 Tjc8 Dual Row Strip Connector 2 54mm"
+        },
+        "file": "products/Low Voltage Connectors/dupont-2-54-tjc8-dual-row-strip-connector-2-54mm.jpg"
+      },
+      {
+        "index": 6,
+        "name": {
+          "en": "Dupont 2 54 Tjc8 Single Row Strip Connector 2 54mm",
+          "ja": "Dupont 2 54 Tjc8 Single Row Strip Connector 2 54mm",
+          "ru": "Dupont 2 54 Tjc8 Single Row Strip Connector 2 54mm",
+          "pt": "Dupont 2 54 Tjc8 Single Row Strip Connector 2 54mm"
+        },
+        "file": "products/Low Voltage Connectors/dupont-2-54-tjc8-single-row-strip-connector-2-54mm.jpg"
+      },
+      {
+        "index": 7,
+        "name": {
+          "en": "Dupont 2 54 Tjc8 Strip Connector 2 54mm",
+          "ja": "Dupont 2 54 Tjc8 Strip Connector 2 54mm",
+          "ru": "Dupont 2 54 Tjc8 Strip Connector 2 54mm",
+          "pt": "Dupont 2 54 Tjc8 Strip Connector 2 54mm"
+        },
+        "file": "products/Low Voltage Connectors/dupont-2-54-tjc8-strip-connector-2-54mm.jpg"
+      },
+      {
+        "index": 8,
+        "name": {
+          "en": "Dupont 2 54 Tjc8a Lock Strip Connector 2 54mm",
+          "ja": "Dupont 2 54 Tjc8a Lock Strip Connector 2 54mm",
+          "ru": "Dupont 2 54 Tjc8a Lock Strip Connector 2 54mm",
+          "pt": "Dupont 2 54 Tjc8a Lock Strip Connector 2 54mm"
+        },
+        "file": "products/Low Voltage Connectors/dupont-2-54-tjc8a-lock-strip-connector-2-54mm.jpg"
+      },
+      {
+        "index": 9,
+        "name": {
+          "en": "Fuse Holder Series",
+          "ja": "Fuse Holder Series",
+          "ru": "Fuse Holder Series",
+          "pt": "Fuse Holder Series"
+        },
+        "file": "products/Low Voltage Connectors/fuse-holder-series.jpg"
+      },
+      {
+        "index": 10,
+        "name": {
+          "en": "Hard Sheath 110 187 250",
+          "ja": "Hard Sheath 110 187 250",
+          "ru": "Hard Sheath 110 187 250",
+          "pt": "Hard Sheath 110 187 250"
+        },
+        "file": "products/Low Voltage Connectors/hard-sheath-110-187-250.jpg"
+      },
+      {
+        "index": 11,
+        "name": {
+          "en": "Insulated Soft Sleeve 110 187 205 250",
+          "ja": "Insulated Soft Sleeve 110 187 205 250",
+          "ru": "Insulated Soft Sleeve 110 187 205 250",
+          "pt": "Insulated Soft Sleeve 110 187 205 250"
+        },
+        "file": "products/Low Voltage Connectors/insulated-soft-sleeve-110-187-205-250.jpg"
+      },
+      {
+        "index": 12,
+        "name": {
+          "en": "Strip Connector 1 25 51021 1 25mm",
+          "ja": "Strip Connector 1 25 51021 1 25mm",
+          "ru": "Strip Connector 1 25 51021 1 25mm",
+          "pt": "Strip Connector 1 25 51021 1 25mm"
+        },
+        "file": "products/Low Voltage Connectors/strip-connector-1-25-51021-1-25mm.jpg"
+      },
+      {
+        "index": 13,
+        "name": {
+          "en": "Strip Connector 1 25 51021 51047 Open 1 25mm",
+          "ja": "Strip Connector 1 25 51021 51047 Open 1 25mm",
+          "ru": "Strip Connector 1 25 51021 51047 Open 1 25mm",
+          "pt": "Strip Connector 1 25 51021 51047 Open 1 25mm"
+        },
+        "file": "products/Low Voltage Connectors/strip-connector-1-25-51021-51047-open-1-25mm.jpg"
+      },
+      {
+        "index": 14,
+        "name": {
+          "en": "Strip Connector 1 25 51021 Vertical Horizontal 1 25mm",
+          "ja": "Strip Connector 1 25 51021 Vertical Horizontal 1 25mm",
+          "ru": "Strip Connector 1 25 51021 Vertical Horizontal 1 25mm",
+          "pt": "Strip Connector 1 25 51021 Vertical Horizontal 1 25mm"
+        },
+        "file": "products/Low Voltage Connectors/strip-connector-1-25-51021-vertical-horizontal-1-25mm.jpg"
+      },
+      {
+        "index": 15,
+        "name": {
+          "en": "Strip Connector 250 2 5mm",
+          "ja": "Strip Connector 250 2 5mm",
+          "ru": "Strip Connector 250 2 5mm",
+          "pt": "Strip Connector 250 2 5mm"
+        },
+        "file": "products/Low Voltage Connectors/strip-connector-250-2-5mm.jpg"
+      },
+      {
+        "index": 16,
+        "name": {
+          "en": "Strip Connector 2510 5051 2 54mm",
+          "ja": "Strip Connector 2510 5051 2 54mm",
+          "ru": "Strip Connector 2510 5051 2 54mm",
+          "pt": "Strip Connector 2510 5051 2 54mm"
+        },
+        "file": "products/Low Voltage Connectors/strip-connector-2510-5051-2-54mm.jpg"
+      },
+      {
+        "index": 17,
+        "name": {
+          "en": "Strip Connector 3 96 2139 3 96mm",
+          "ja": "Strip Connector 3 96 2139 3 96mm",
+          "ru": "Strip Connector 3 96 2139 3 96mm",
+          "pt": "Strip Connector 3 96 2139 3 96mm"
+        },
+        "file": "products/Low Voltage Connectors/strip-connector-3-96-2139-3-96mm.jpg"
+      },
+      {
+        "index": 18,
+        "name": {
+          "en": "Strip Connector 43020 43025 Mx3 0 Dual Row 3 0mm",
+          "ja": "Strip Connector 43020 43025 Mx3 0 Dual Row 3 0mm",
+          "ru": "Strip Connector 43020 43025 Mx3 0 Dual Row 3 0mm",
+          "pt": "Strip Connector 43020 43025 Mx3 0 Dual Row 3 0mm"
+        },
+        "file": "products/Low Voltage Connectors/strip-connector-43020-43025-mx3-0-dual-row-3-0mm.jpg"
+      },
+      {
+        "index": 19,
+        "name": {
+          "en": "Strip Connector 43645 43640 Mx3 0 Dual Row 3 0mm",
+          "ja": "Strip Connector 43645 43640 Mx3 0 Dual Row 3 0mm",
+          "ru": "Strip Connector 43645 43640 Mx3 0 Dual Row 3 0mm",
+          "pt": "Strip Connector 43645 43640 Mx3 0 Dual Row 3 0mm"
+        },
+        "file": "products/Low Voltage Connectors/strip-connector-43645-43640-mx3-0-dual-row-3-0mm.jpg"
+      },
+      {
+        "index": 20,
+        "name": {
+          "en": "Strip Connector 51005 51006 2 0mm",
+          "ja": "Strip Connector 51005 51006 2 0mm",
+          "ru": "Strip Connector 51005 51006 2 0mm",
+          "pt": "Strip Connector 51005 51006 2 0mm"
+        },
+        "file": "products/Low Voltage Connectors/strip-connector-51005-51006-2-0mm.jpg"
+      },
+      {
+        "index": 21,
+        "name": {
+          "en": "Strip Connector 5102 5240 2 5mm",
+          "ja": "Strip Connector 5102 5240 2 5mm",
+          "ru": "Strip Connector 5102 5240 2 5mm",
+          "pt": "Strip Connector 5102 5240 2 5mm"
+        },
+        "file": "products/Low Voltage Connectors/strip-connector-5102-5240-2-5mm.jpg"
+      },
+      {
+        "index": 22,
+        "name": {
+          "en": "Strip Connector 51146 Ultra Thin 1 25mm",
+          "ja": "Strip Connector 51146 Ultra Thin 1 25mm",
+          "ru": "Strip Connector 51146 Ultra Thin 1 25mm",
+          "pt": "Strip Connector 51146 Ultra Thin 1 25mm"
+        },
+        "file": "products/Low Voltage Connectors/strip-connector-51146-ultra-thin-1-25mm.jpg"
+      },
+      {
+        "index": 23,
+        "name": {
+          "en": "Strip Connector 5264 2 5mm",
+          "ja": "Strip Connector 5264 2 5mm",
+          "ru": "Strip Connector 5264 2 5mm",
+          "pt": "Strip Connector 5264 2 5mm"
+        },
+        "file": "products/Low Voltage Connectors/strip-connector-5264-2-5mm.jpg"
+      },
+      {
+        "index": 24,
+        "name": {
+          "en": "Strip Connector 5500 5600 3 7mm",
+          "ja": "Strip Connector 5500 5600 3 7mm",
+          "ru": "Strip Connector 5500 5600 3 7mm",
+          "pt": "Strip Connector 5500 5600 3 7mm"
+        },
+        "file": "products/Low Voltage Connectors/strip-connector-5500-5600-3-7mm.jpg"
+      },
+      {
+        "index": 25,
+        "name": {
+          "en": "Strip Connector 5557 5559 Dual Row 4 2mm",
+          "ja": "Strip Connector 5557 5559 Dual Row 4 2mm",
+          "ru": "Strip Connector 5557 5559 Dual Row 4 2mm",
+          "pt": "Strip Connector 5557 5559 Dual Row 4 2mm"
+        },
+        "file": "products/Low Voltage Connectors/strip-connector-5557-5559-dual-row-4-2mm.jpg"
+      },
+      {
+        "index": 26,
+        "name": {
+          "en": "Strip Connector 5557 5559 Single Row 4 2mm",
+          "ja": "Strip Connector 5557 5559 Single Row 4 2mm",
+          "ru": "Strip Connector 5557 5559 Single Row 4 2mm",
+          "pt": "Strip Connector 5557 5559 Single Row 4 2mm"
+        },
+        "file": "products/Low Voltage Connectors/strip-connector-5557-5559-single-row-4-2mm.jpg"
+      },
+      {
+        "index": 27,
+        "name": {
+          "en": "Strip Connector 8981 4p 5 08mm",
+          "ja": "Strip Connector 8981 4p 5 08mm",
+          "ru": "Strip Connector 8981 4p 5 08mm",
+          "pt": "Strip Connector 8981 4p 5 08mm"
+        },
+        "file": "products/Low Voltage Connectors/strip-connector-8981-4p-5-08mm.jpg"
+      },
+      {
+        "index": 28,
+        "name": {
+          "en": "Strip Connector Ayt2 0s 2 0mm",
+          "ja": "Strip Connector Ayt2 0s 2 0mm",
+          "ru": "Strip Connector Ayt2 0s 2 0mm",
+          "pt": "Strip Connector Ayt2 0s 2 0mm"
+        },
+        "file": "products/Low Voltage Connectors/strip-connector-ayt2-0s-2-0mm.jpg"
+      },
+      {
+        "index": 29,
+        "name": {
+          "en": "Strip Connector Bh3 5 1 25mm",
+          "ja": "Strip Connector Bh3 5 1 25mm",
+          "ru": "Strip Connector Bh3 5 1 25mm",
+          "pt": "Strip Connector Bh3 5 1 25mm"
+        },
+        "file": "products/Low Voltage Connectors/strip-connector-bh3-5-1-25mm.jpg"
+      },
+      {
+        "index": 30,
+        "name": {
+          "en": "Strip Connector Bh4 0 1 25mm",
+          "ja": "Strip Connector Bh4 0 1 25mm",
+          "ru": "Strip Connector Bh4 0 1 25mm",
+          "pt": "Strip Connector Bh4 0 1 25mm"
+        },
+        "file": "products/Low Voltage Connectors/strip-connector-bh4-0-1-25mm.jpg"
+      },
+      {
+        "index": 31,
+        "name": {
+          "en": "Strip Connector Df14 1 25mm",
+          "ja": "Strip Connector Df14 1 25mm",
+          "ru": "Strip Connector Df14 1 25mm",
+          "pt": "Strip Connector Df14 1 25mm"
+        },
+        "file": "products/Low Voltage Connectors/strip-connector-df14-1-25mm.jpg"
+      },
+      {
+        "index": 32,
+        "name": {
+          "en": "Strip Connector Eh 2 5mm",
+          "ja": "Strip Connector Eh 2 5mm",
+          "ru": "Strip Connector Eh 2 5mm",
+          "pt": "Strip Connector Eh 2 5mm"
+        },
+        "file": "products/Low Voltage Connectors/strip-connector-eh-2-5mm.jpg"
+      },
+      {
+        "index": 33,
+        "name": {
+          "en": "Strip Connector El 4 5mm",
+          "ja": "Strip Connector El 4 5mm",
+          "ru": "Strip Connector El 4 5mm",
+          "pt": "Strip Connector El 4 5mm"
+        },
+        "file": "products/Low Voltage Connectors/strip-connector-el-4-5mm.jpg"
+      },
+      {
+        "index": 34,
+        "name": {
+          "en": "Strip Connector Fl 4 14mm",
+          "ja": "Strip Connector Fl 4 14mm",
+          "ru": "Strip Connector Fl 4 14mm",
+          "pt": "Strip Connector Fl 4 14mm"
+        },
+        "file": "products/Low Voltage Connectors/strip-connector-fl-4-14mm.jpg"
+      },
+      {
+        "index": 35,
+        "name": {
+          "en": "Strip Connector Gh 1 25mm",
+          "ja": "Strip Connector Gh 1 25mm",
+          "ru": "Strip Connector Gh 1 25mm",
+          "pt": "Strip Connector Gh 1 25mm"
+        },
+        "file": "products/Low Voltage Connectors/strip-connector-gh-1-25mm.jpg"
+      },
+      {
+        "index": 36,
+        "name": {
+          "en": "Strip Connector Hy Housing Header 2 0mm",
+          "ja": "Strip Connector Hy Housing Header 2 0mm",
+          "ru": "Strip Connector Hy Housing Header 2 0mm",
+          "pt": "Strip Connector Hy Housing Header 2 0mm"
+        },
+        "file": "products/Low Voltage Connectors/strip-connector-hy-housing-header-2-0mm.jpg"
+      },
+      {
+        "index": 37,
+        "name": {
+          "en": "Strip Connector Hy Housing Horizontal Vertical 2 0mm",
+          "ja": "Strip Connector Hy Housing Horizontal Vertical 2 0mm",
+          "ru": "Strip Connector Hy Housing Horizontal Vertical 2 0mm",
+          "pt": "Strip Connector Hy Housing Horizontal Vertical 2 0mm"
+        },
+        "file": "products/Low Voltage Connectors/strip-connector-hy-housing-horizontal-vertical-2-0mm.jpg"
+      },
+      {
+        "index": 38,
+        "name": {
+          "en": "Strip Connector Hy Open 2 0mm",
+          "ja": "Strip Connector Hy Open 2 0mm",
+          "ru": "Strip Connector Hy Open 2 0mm",
+          "pt": "Strip Connector Hy Open 2 0mm"
+        },
+        "file": "products/Low Voltage Connectors/strip-connector-hy-open-2-0mm.jpg"
+      },
+      {
+        "index": 39,
+        "name": {
+          "en": "Strip Connector Jae 2 5mm",
+          "ja": "Strip Connector Jae 2 5mm",
+          "ru": "Strip Connector Jae 2 5mm",
+          "pt": "Strip Connector Jae 2 5mm"
+        },
+        "file": "products/Low Voltage Connectors/strip-connector-jae-2-5mm.jpg"
+      },
+      {
+        "index": 40,
+        "name": {
+          "en": "Strip Connector Jc20 2 0mm",
+          "ja": "Strip Connector Jc20 2 0mm",
+          "ru": "Strip Connector Jc20 2 0mm",
+          "pt": "Strip Connector Jc20 2 0mm"
+        },
+        "file": "products/Low Voltage Connectors/strip-connector-jc20-2-0mm.jpg"
+      },
+      {
+        "index": 41,
+        "name": {
+          "en": "Strip Connector Jc25 2 5mm",
+          "ja": "Strip Connector Jc25 2 5mm",
+          "ru": "Strip Connector Jc25 2 5mm",
+          "pt": "Strip Connector Jc25 2 5mm"
+        },
+        "file": "products/Low Voltage Connectors/strip-connector-jc25-2-5mm.jpg"
+      },
+      {
+        "index": 42,
+        "name": {
+          "en": "Strip Connector L6 2 6 2mm",
+          "ja": "Strip Connector L6 2 6 2mm",
+          "ru": "Strip Connector L6 2 6 2mm",
+          "pt": "Strip Connector L6 2 6 2mm"
+        },
+        "file": "products/Low Voltage Connectors/strip-connector-l6-2-6-2mm.jpg"
+      },
+      {
+        "index": 43,
+        "name": {
+          "en": "Strip Connector Nh Ultra Thin 1 0mm",
+          "ja": "Strip Connector Nh Ultra Thin 1 0mm",
+          "ru": "Strip Connector Nh Ultra Thin 1 0mm",
+          "pt": "Strip Connector Nh Ultra Thin 1 0mm"
+        },
+        "file": "products/Low Voltage Connectors/strip-connector-nh-ultra-thin-1-0mm.jpg"
+      },
+      {
+        "index": 44,
+        "name": {
+          "en": "Strip Connector Ph Housing Header 2 0mm",
+          "ja": "Strip Connector Ph Housing Header 2 0mm",
+          "ru": "Strip Connector Ph Housing Header 2 0mm",
+          "pt": "Strip Connector Ph Housing Header 2 0mm"
+        },
+        "file": "products/Low Voltage Connectors/strip-connector-ph-housing-header-2-0mm.jpg"
+      },
+      {
+        "index": 45,
+        "name": {
+          "en": "Strip Connector Ph Housing Horizontal Vertical 2 0mm",
+          "ja": "Strip Connector Ph Housing Horizontal Vertical 2 0mm",
+          "ru": "Strip Connector Ph Housing Horizontal Vertical 2 0mm",
+          "pt": "Strip Connector Ph Housing Horizontal Vertical 2 0mm"
+        },
+        "file": "products/Low Voltage Connectors/strip-connector-ph-housing-horizontal-vertical-2-0mm.jpg"
+      },
+      {
+        "index": 46,
+        "name": {
+          "en": "Strip Connector Ph Open 2 0mm",
+          "ja": "Strip Connector Ph Open 2 0mm",
+          "ru": "Strip Connector Ph Open 2 0mm",
+          "pt": "Strip Connector Ph Open 2 0mm"
+        },
+        "file": "products/Low Voltage Connectors/strip-connector-ph-open-2-0mm.jpg"
+      },
+      {
+        "index": 47,
+        "name": {
+          "en": "Strip Connector Phb 2 0mm",
+          "ja": "Strip Connector Phb 2 0mm",
+          "ru": "Strip Connector Phb 2 0mm",
+          "pt": "Strip Connector Phb 2 0mm"
+        },
+        "file": "products/Low Voltage Connectors/strip-connector-phb-2-0mm.jpg"
+      },
+      {
+        "index": 48,
+        "name": {
+          "en": "Strip Connector Phd 2 0mm",
+          "ja": "Strip Connector Phd 2 0mm",
+          "ru": "Strip Connector Phd 2 0mm",
+          "pt": "Strip Connector Phd 2 0mm"
+        },
+        "file": "products/Low Voltage Connectors/strip-connector-phd-2-0mm.jpg"
+      },
+      {
+        "index": 49,
+        "name": {
+          "en": "Strip Connector San 2 0mm",
+          "ja": "Strip Connector San 2 0mm",
+          "ru": "Strip Connector San 2 0mm",
+          "pt": "Strip Connector San 2 0mm"
+        },
+        "file": "products/Low Voltage Connectors/strip-connector-san-2-0mm.jpg"
+      },
+      {
+        "index": 50,
+        "name": {
+          "en": "Strip Connector Scn 2 5mm",
+          "ja": "Strip Connector Scn 2 5mm",
+          "ru": "Strip Connector Scn 2 5mm",
+          "pt": "Strip Connector Scn 2 5mm"
+        },
+        "file": "products/Low Voltage Connectors/strip-connector-scn-2-5mm.jpg"
+      },
+      {
+        "index": 51,
+        "name": {
+          "en": "Strip Connector Sel Mini El 4 5mm",
+          "ja": "Strip Connector Sel Mini El 4 5mm",
+          "ru": "Strip Connector Sel Mini El 4 5mm",
+          "pt": "Strip Connector Sel Mini El 4 5mm"
+        },
+        "file": "products/Low Voltage Connectors/strip-connector-sel-mini-el-4-5mm.jpg"
+      },
+      {
+        "index": 52,
+        "name": {
+          "en": "Strip Connector Shd1 0 Dual Row Sh1 0 1 0mm",
+          "ja": "Strip Connector Shd1 0 Dual Row Sh1 0 1 0mm",
+          "ru": "Strip Connector Shd1 0 Dual Row Sh1 0 1 0mm",
+          "pt": "Strip Connector Shd1 0 Dual Row Sh1 0 1 0mm"
+        },
+        "file": "products/Low Voltage Connectors/strip-connector-shd1-0-dual-row-sh1-0-1-0mm.jpg"
+      },
+      {
+        "index": 53,
+        "name": {
+          "en": "Strip Connector Sm 2 5mm",
+          "ja": "Strip Connector Sm 2 5mm",
+          "ru": "Strip Connector Sm 2 5mm",
+          "pt": "Strip Connector Sm 2 5mm"
+        },
+        "file": "products/Low Voltage Connectors/strip-connector-sm-2-5mm.jpg"
+      },
+      {
+        "index": 54,
+        "name": {
+          "en": "Strip Connector Syp 2 5mm",
+          "ja": "Strip Connector Syp 2 5mm",
+          "ru": "Strip Connector Syp 2 5mm",
+          "pt": "Strip Connector Syp 2 5mm"
+        },
+        "file": "products/Low Voltage Connectors/strip-connector-syp-2-5mm.jpg"
+      },
+      {
+        "index": 55,
+        "name": {
+          "en": "Strip Connector Tjc1 10 8 8mm",
+          "ja": "Strip Connector Tjc1 10 8 8mm",
+          "ru": "Strip Connector Tjc1 10 8 8mm",
+          "pt": "Strip Connector Tjc1 10 8 8mm"
+        },
+        "file": "products/Low Voltage Connectors/strip-connector-tjc1-10-8-8mm.jpg"
+      },
+      {
+        "index": 56,
+        "name": {
+          "en": "Strip Connector Tjc2 7 5 5 5mm",
+          "ja": "Strip Connector Tjc2 7 5 5 5mm",
+          "ru": "Strip Connector Tjc2 7 5 5 5mm",
+          "pt": "Strip Connector Tjc2 7 5 5 5mm"
+        },
+        "file": "products/Low Voltage Connectors/strip-connector-tjc2-7-5-5-5mm.jpg"
+      },
+      {
+        "index": 57,
+        "name": {
+          "en": "Strip Connector Vh Housing Header 3 96mm",
+          "ja": "Strip Connector Vh Housing Header 3 96mm",
+          "ru": "Strip Connector Vh Housing Header 3 96mm",
+          "pt": "Strip Connector Vh Housing Header 3 96mm"
+        },
+        "file": "products/Low Voltage Connectors/strip-connector-vh-housing-header-3-96mm.jpg"
+      },
+      {
+        "index": 58,
+        "name": {
+          "en": "Strip Connector Vh Smp396 3 96mm",
+          "ja": "Strip Connector Vh Smp396 3 96mm",
+          "ru": "Strip Connector Vh Smp396 3 96mm",
+          "pt": "Strip Connector Vh Smp396 3 96mm"
+        },
+        "file": "products/Low Voltage Connectors/strip-connector-vh-smp396-3-96mm.jpg"
+      },
+      {
+        "index": 59,
+        "name": {
+          "en": "Strip Connector Xh Tjc3 Housing Header 2 5mm",
+          "ja": "Strip Connector Xh Tjc3 Housing Header 2 5mm",
+          "ru": "Strip Connector Xh Tjc3 Housing Header 2 5mm",
+          "pt": "Strip Connector Xh Tjc3 Housing Header 2 5mm"
+        },
+        "file": "products/Low Voltage Connectors/strip-connector-xh-tjc3-housing-header-2-5mm.jpg"
+      },
+      {
+        "index": 60,
+        "name": {
+          "en": "Strip Connector Xh Tjc3 Housing Horizontal Vertical 2 5mm",
+          "ja": "Strip Connector Xh Tjc3 Housing Horizontal Vertical 2 5mm",
+          "ru": "Strip Connector Xh Tjc3 Housing Horizontal Vertical 2 5mm",
+          "pt": "Strip Connector Xh Tjc3 Housing Horizontal Vertical 2 5mm"
+        },
+        "file": "products/Low Voltage Connectors/strip-connector-xh-tjc3-housing-horizontal-vertical-2-5mm.jpg"
+      },
+      {
+        "index": 61,
+        "name": {
+          "en": "Strip Connector Xh Tjc3 Open 2 5mm",
+          "ja": "Strip Connector Xh Tjc3 Open 2 5mm",
+          "ru": "Strip Connector Xh Tjc3 Open 2 5mm",
+          "pt": "Strip Connector Xh Tjc3 Open 2 5mm"
+        },
+        "file": "products/Low Voltage Connectors/strip-connector-xh-tjc3-open-2-5mm.jpg"
+      },
+      {
+        "index": 62,
+        "name": {
+          "en": "Strip Connector Xhb Housing Header 2 5mm",
+          "ja": "Strip Connector Xhb Housing Header 2 5mm",
+          "ru": "Strip Connector Xhb Housing Header 2 5mm",
+          "pt": "Strip Connector Xhb Housing Header 2 5mm"
+        },
+        "file": "products/Low Voltage Connectors/strip-connector-xhb-housing-header-2-5mm.jpg"
+      },
+      {
+        "index": 63,
+        "name": {
+          "en": "Strip Connector Xhb Housing Horizontal 2 5mm",
+          "ja": "Strip Connector Xhb Housing Horizontal 2 5mm",
+          "ru": "Strip Connector Xhb Housing Horizontal 2 5mm",
+          "pt": "Strip Connector Xhb Housing Horizontal 2 5mm"
+        },
+        "file": "products/Low Voltage Connectors/strip-connector-xhb-housing-horizontal-2-5mm.jpg"
+      },
+      {
+        "index": 64,
+        "name": {
+          "en": "Strip Connector Yl 4 5mm",
+          "ja": "Strip Connector Yl 4 5mm",
+          "ru": "Strip Connector Yl 4 5mm",
+          "pt": "Strip Connector Yl 4 5mm"
+        },
+        "file": "products/Low Voltage Connectors/strip-connector-yl-4-5mm.jpg"
+      },
+      {
+        "index": 65,
+        "name": {
+          "en": "Strip Connector Zh 1 5 Housing Header 1 5mm",
+          "ja": "Strip Connector Zh 1 5 Housing Header 1 5mm",
+          "ru": "Strip Connector Zh 1 5 Housing Header 1 5mm",
+          "pt": "Strip Connector Zh 1 5 Housing Header 1 5mm"
+        },
+        "file": "products/Low Voltage Connectors/strip-connector-zh-1-5-housing-header-1-5mm.jpg"
+      },
+      {
+        "index": 66,
+        "name": {
+          "en": "Strip Connector Zh 1 5 Housing Horizontal Vertical 1 5mm",
+          "ja": "Strip Connector Zh 1 5 Housing Horizontal Vertical 1 5mm",
+          "ru": "Strip Connector Zh 1 5 Housing Horizontal Vertical 1 5mm",
+          "pt": "Strip Connector Zh 1 5 Housing Horizontal Vertical 1 5mm"
+        },
+        "file": "products/Low Voltage Connectors/strip-connector-zh-1-5-housing-horizontal-vertical-1-5mm.jpg"
+      },
+      {
+        "index": 67,
+        "name": {
+          "en": "Washing Machine Connector 2 8 8 8 6 8mm",
+          "ja": "Washing Machine Connector 2 8 8 8 6 8mm",
+          "ru": "Washing Machine Connector 2 8 8 8 6 8mm",
+          "pt": "Washing Machine Connector 2 8 8 8 6 8mm"
+        },
+        "file": "products/Low Voltage Connectors/washing-machine-connector-2-8-8-8-6-8mm.jpg"
+      },
+      {
+        "index": 68,
+        "name": {
+          "en": "Washing Machine Connector Cy X201 35108 2 1 8 0 5 0mm",
+          "ja": "Washing Machine Connector Cy X201 35108 2 1 8 0 5 0mm",
+          "ru": "Washing Machine Connector Cy X201 35108 2 1 8 0 5 0mm",
+          "pt": "Washing Machine Connector Cy X201 35108 2 1 8 0 5 0mm"
+        },
+        "file": "products/Low Voltage Connectors/washing-machine-connector-cy-x201-35108-2-1-8-0-5-0mm.jpg"
+      },
+      {
+        "index": 69,
+        "name": {
+          "en": "Washing Machine Connector Smf 1 2 4 5mm",
+          "ja": "Washing Machine Connector Smf 1 2 4 5mm",
+          "ru": "Washing Machine Connector Smf 1 2 4 5mm",
+          "pt": "Washing Machine Connector Smf 1 2 4 5mm"
+        },
+        "file": "products/Low Voltage Connectors/washing-machine-connector-smf-1-2-4-5mm.jpg"
+      }
+    ]
+  },
+  "rocker-ac-switches": {
+    "name": {
+      "en": "Rocker & AC Switches",
+      "ja": "ロッカー＆ACスイッチ",
+      "ru": "Клавишные и AC переключатели",
+      "pt": "Interruptores de Balancim e AC"
+    },
+    "index": 3,
+    "products": [
+      {
+        "index": 0,
+        "name": {
+          "en": "AC 01",
+          "ja": "AC 01",
+          "ru": "AC 01",
+          "pt": "AC 01"
+        },
+        "file": "products/Rocker & AC Switches/AC-01.jpg"
+      },
+      {
+        "index": 1,
+        "name": {
+          "en": "AC 01a",
+          "ja": "AC 01a",
+          "ru": "AC 01a",
+          "pt": "AC 01a"
+        },
+        "file": "products/Rocker & AC Switches/AC-01a.jpg"
+      },
+      {
+        "index": 2,
+        "name": {
+          "en": "AC 14 12",
+          "ja": "AC 14 12",
+          "ru": "AC 14 12",
+          "pt": "AC 14 12"
+        },
+        "file": "products/Rocker & AC Switches/AC-14-12.jpg"
+      },
+      {
+        "index": 3,
+        "name": {
+          "en": "AC 14 13",
+          "ja": "AC 14 13",
+          "ru": "AC 14 13",
+          "pt": "AC 14 13"
+        },
+        "file": "products/Rocker & AC Switches/AC-14-13.jpg"
+      },
+      {
+        "index": 4,
+        "name": {
+          "en": "AC 14 14",
+          "ja": "AC 14 14",
+          "ru": "AC 14 14",
+          "pt": "AC 14 14"
+        },
+        "file": "products/Rocker & AC Switches/AC-14-14.jpg"
+      },
+      {
+        "index": 5,
+        "name": {
+          "en": "AC 14 2",
+          "ja": "AC 14 2",
+          "ru": "AC 14 2",
+          "pt": "AC 14 2"
+        },
+        "file": "products/Rocker & AC Switches/AC-14-2.jpg"
+      },
+      {
+        "index": 6,
+        "name": {
+          "en": "Ac 14 3",
+          "ja": "Ac 14 3",
+          "ru": "Ac 14 3",
+          "pt": "Ac 14 3"
+        },
+        "file": "products/Rocker & AC Switches/ac-14-3.jpg"
+      },
+      {
+        "index": 7,
+        "name": {
+          "en": "AC 14 F1",
+          "ja": "AC 14 F1",
+          "ru": "AC 14 F1",
+          "pt": "AC 14 F1"
+        },
+        "file": "products/Rocker & AC Switches/AC-14-F1.jpg"
+      },
+      {
+        "index": 8,
+        "name": {
+          "en": "Ac 14 F12",
+          "ja": "Ac 14 F12",
+          "ru": "Ac 14 F12",
+          "pt": "Ac 14 F12"
+        },
+        "file": "products/Rocker & AC Switches/ac-14-F12.jpg"
+      },
+      {
+        "index": 9,
+        "name": {
+          "en": "AC 14 F15",
+          "ja": "AC 14 F15",
+          "ru": "AC 14 F15",
+          "pt": "AC 14 F15"
+        },
+        "file": "products/Rocker & AC Switches/AC-14-F15.jpg"
+      },
+      {
+        "index": 10,
+        "name": {
+          "en": "AC 14 F16A",
+          "ja": "AC 14 F16A",
+          "ru": "AC 14 F16A",
+          "pt": "AC 14 F16A"
+        },
+        "file": "products/Rocker & AC Switches/AC-14-F16A.jpg"
+      },
+      {
+        "index": 11,
+        "name": {
+          "en": "AC 14 F16C",
+          "ja": "AC 14 F16C",
+          "ru": "AC 14 F16C",
+          "pt": "AC 14 F16C"
+        },
+        "file": "products/Rocker & AC Switches/AC-14-F16C.jpg"
+      },
+      {
+        "index": 12,
+        "name": {
+          "en": "AC 14 F18",
+          "ja": "AC 14 F18",
+          "ru": "AC 14 F18",
+          "pt": "AC 14 F18"
+        },
+        "file": "products/Rocker & AC Switches/AC-14-F18.jpg"
+      },
+      {
+        "index": 13,
+        "name": {
+          "en": "AC 14 F4",
+          "ja": "AC 14 F4",
+          "ru": "AC 14 F4",
+          "pt": "AC 14 F4"
+        },
+        "file": "products/Rocker & AC Switches/AC-14-F4.jpg"
+      },
+      {
+        "index": 14,
+        "name": {
+          "en": "AC 14 F6",
+          "ja": "AC 14 F6",
+          "ru": "AC 14 F6",
+          "pt": "AC 14 F6"
+        },
+        "file": "products/Rocker & AC Switches/AC-14-F6.jpg"
+      },
+      {
+        "index": 15,
+        "name": {
+          "en": "AC 14",
+          "ja": "AC 14",
+          "ru": "AC 14",
+          "pt": "AC 14"
+        },
+        "file": "products/Rocker & AC Switches/AC-14.jpg"
+      },
+      {
+        "index": 16,
+        "name": {
+          "en": "AC Union",
+          "ja": "AC Union",
+          "ru": "AC Union",
+          "pt": "AC Union"
+        },
+        "file": "products/Rocker & AC Switches/AC-union.jpg"
+      },
+      {
+        "index": 17,
+        "name": {
+          "en": "DB 6 1",
+          "ja": "DB 6 1",
+          "ru": "DB 6 1",
+          "pt": "DB 6 1"
+        },
+        "file": "products/Rocker & AC Switches/DB-6-1.jpg"
+      },
+      {
+        "index": 18,
+        "name": {
+          "en": "DB 8 2.5 250V",
+          "ja": "DB 8 2.5 250V",
+          "ru": "DB 8 2.5 250V",
+          "pt": "DB 8 2.5 250V"
+        },
+        "file": "products/Rocker & AC Switches/DB-8-2.5-250V.jpg"
+      },
+      {
+        "index": 19,
+        "name": {
+          "en": "QY601",
+          "ja": "QY601",
+          "ru": "QY601",
+          "pt": "QY601"
+        },
+        "file": "products/Rocker & AC Switches/QY601.jpg"
+      },
+      {
+        "index": 20,
+        "name": {
+          "en": "QY602",
+          "ja": "QY602",
+          "ru": "QY602",
+          "pt": "QY602"
+        },
+        "file": "products/Rocker & AC Switches/QY602.jpg"
+      },
+      {
+        "index": 21,
+        "name": {
+          "en": "QY603",
+          "ja": "QY603",
+          "ru": "QY603",
+          "pt": "QY603"
+        },
+        "file": "products/Rocker & AC Switches/QY603.jpg"
+      },
+      {
+        "index": 22,
+        "name": {
+          "en": "QY604",
+          "ja": "QY604",
+          "ru": "QY604",
+          "pt": "QY604"
+        },
+        "file": "products/Rocker & AC Switches/QY604.jpg"
+      },
+      {
+        "index": 23,
+        "name": {
+          "en": "QY605",
+          "ja": "QY605",
+          "ru": "QY605",
+          "pt": "QY605"
+        },
+        "file": "products/Rocker & AC Switches/QY605.jpg"
+      },
+      {
+        "index": 24,
+        "name": {
+          "en": "QY606",
+          "ja": "QY606",
+          "ru": "QY606",
+          "pt": "QY606"
+        },
+        "file": "products/Rocker & AC Switches/QY606.jpg"
+      },
+      {
+        "index": 25,
+        "name": {
+          "en": "QY608",
+          "ja": "QY608",
+          "ru": "QY608",
+          "pt": "QY608"
+        },
+        "file": "products/Rocker & AC Switches/QY608.jpg"
+      },
+      {
+        "index": 26,
+        "name": {
+          "en": "QY609",
+          "ja": "QY609",
+          "ru": "QY609",
+          "pt": "QY609"
+        },
+        "file": "products/Rocker & AC Switches/QY609.jpg"
+      },
+      {
+        "index": 27,
+        "name": {
+          "en": "QY611",
+          "ja": "QY611",
+          "ru": "QY611",
+          "pt": "QY611"
+        },
+        "file": "products/Rocker & AC Switches/QY611.jpg"
+      }
+    ]
+  },
+  "wire-harnesses": {
+    "name": {
+      "en": "Wire Harnesses",
+      "ja": "ワイヤーハーネス",
+      "ru": "Кабельные жгуты",
+      "pt": "Chicotes de Fios"
+    },
+    "index": 4,
+    "products": [
+      {
+        "index": 0,
+        "name": {
+          "en": "1",
+          "ja": "1",
+          "ru": "1",
+          "pt": "1"
+        },
+        "file": "products/Wire Harnesses/1.webp"
+      },
+      {
+        "index": 1,
+        "name": {
+          "en": "2",
+          "ja": "2",
+          "ru": "2",
+          "pt": "2"
+        },
+        "file": "products/Wire Harnesses/2.webp"
+      },
+      {
+        "index": 2,
+        "name": {
+          "en": "3",
+          "ja": "3",
+          "ru": "3",
+          "pt": "3"
+        },
+        "file": "products/Wire Harnesses/3.webp"
+      },
+      {
+        "index": 3,
+        "name": {
+          "en": "4",
+          "ja": "4",
+          "ru": "4",
+          "pt": "4"
+        },
+        "file": "products/Wire Harnesses/4.webp"
+      },
+      {
+        "index": 4,
+        "name": {
+          "en": "5",
+          "ja": "5",
+          "ru": "5",
+          "pt": "5"
+        },
+        "file": "products/Wire Harnesses/5.webp"
+      },
+      {
+        "index": 5,
+        "name": {
+          "en": "6",
+          "ja": "6",
+          "ru": "6",
+          "pt": "6"
+        },
+        "file": "products/Wire Harnesses/6.webp"
+      },
+      {
+        "index": 6,
+        "name": {
+          "en": "7",
+          "ja": "7",
+          "ru": "7",
+          "pt": "7"
+        },
+        "file": "products/Wire Harnesses/7.webp"
+      },
+      {
+        "index": 7,
+        "name": {
+          "en": "8",
+          "ja": "8",
+          "ru": "8",
+          "pt": "8"
+        },
+        "file": "products/Wire Harnesses/8.webp"
+      }
+    ]
+  }
+}
