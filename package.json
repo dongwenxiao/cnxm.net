@@ -1,0 +1,7 @@
+{
+  "name": "cnxm.net",
+  "version": "1.0.0",
+  "scripts": {
+    "deploy": "curl -d \"\" \"https://api.cloudflare.com/client/v4/pages/webhooks/deploy_hooks/3392dd36-1cdd-4363-9d7b-dcc0c341a02c\""
+  }
+}
