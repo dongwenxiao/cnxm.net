@@ -32,3 +32,4 @@ node_modules/
 # Backup Files
 *.bak
 backup/
+images/products-backup/
