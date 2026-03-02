@@ -1938,12 +1938,165 @@
       "en": "Wire Harnesses",
       "ja": "ワイヤーハーネス",
       "ru": "Кабельные жгуты",
-      "pt": "Chicotes de Fios"
+      "pt": "Chicotes de Fios",
+      "zh": "线束"
     },
     "index": 4,
     "products": [
       {
         "index": 0,
+        "name": {
+          "en": "Power Tool Wire Harness (EY.028.0007)",
+          "ja": "電動工具用ワイヤーハーネス",
+          "ru": "Жгут проводов для электроинструмента",
+          "pt": "Chicote de Fios para Ferramenta Elétrica",
+          "zh": "电动工具专用线束"
+        },
+        "file": "wire-harness/product-1-compressed.jpg",
+        "drawings": [
+          {
+            "type": "pdf",
+            "file": "wire-harness/product-1-drawing-new.pdf",
+            "name": "EY.028.0007 (80mm, 1.25-8P)"
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "name": {
+          "en": "XH Connector Wire Harness",
+          "ja": "XHコネクタワイヤーハーネス",
+          "ru": "Жгут проводов с разъемом XH",
+          "pt": "Chicote de Fios com Conector XH",
+          "zh": "XH连接器线束"
+        },
+        "file": "wire-harness/product-2-compressed.jpg"
+      },
+      {
+        "index": 2,
+        "name": {
+          "en": "SH1.0-8P Brushless Motor Switch Harness",
+          "ja": "SH1.0-8P ブラシレスモータースイッチハーネス",
+          "ru": "Жгут переключателя бесщёточного двигателя SH1.0-8P",
+          "pt": "Chicote do Interruptor do Motor Brushless SH1.0-8P",
+          "zh": "SH1.0-8P无刷电动工具开关线束"
+        },
+        "file": "wire-harness/product-3-compressed.jpg",
+        "drawings": [
+          {
+            "type": "pdf",
+            "file": "wire-harness/product-3-drawing-1.pdf",
+            "name": "EY.001.0086 8PIN-1.0"
+          },
+          {
+            "type": "dwg",
+            "file": "wire-harness/product-3-drawing-2.dwg",
+            "name": "EY.080.0025 SH1.0-8P"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "name": {
+          "en": "51006 Connector Wire Harness (5P)",
+          "ja": "51006コネクタワイヤーハーネス (5P)",
+          "ru": "Жгут проводов с разъемом 51006 (5P)",
+          "pt": "Chicote de Fios com Conector 51006 (5P)",
+          "zh": "51006连接器线束（5P）"
+        },
+        "file": "wire-harness/product-6-compressed.jpg",
+        "drawings": [
+          {
+            "type": "pdf",
+            "file": "wire-harness/product-6-drawing-1.pdf",
+            "name": "EY.001.0208 51006-5P"
+          },
+          {
+            "type": "pdf",
+            "file": "wire-harness/product-6-drawing-2.pdf",
+            "name": "EY.031.0032 SAN-6Y"
+          }
+        ]
+      },
+      {
+        "index": 4,
+        "name": {
+          "en": "Brushless Motor Switch Wire Harness",
+          "ja": "ブラシレスモータースイッチワイヤーハーネス",
+          "ru": "Жгут проводов переключателя бесщёточного двигателя",
+          "pt": "Chicote de Fios do Interruptor do Motor Brushless",
+          "zh": "无刷电动工具开关线束"
+        },
+        "file": "wire-harness/product-8-compressed.jpg",
+        "drawings": [
+          {
+            "type": "pdf",
+            "file": "wire-harness/product-8-drawing-1.pdf",
+            "name": "EY.002.0001"
+          }
+        ]
+      },
+      {
+        "index": 5,
+        "name": {
+          "en": "VH/SM/XH Multi-Connector Harness",
+          "ja": "VH/SM/XH マルチコネクタハーネス",
+          "ru": "Многоразъемный жгут VH/SM/XH",
+          "pt": "Chicote Multi-Conector VH/SM/XH",
+          "zh": "VH/SM/XH多连接器线束"
+        },
+        "file": "wire-harness/product-11-compressed.jpg",
+        "drawings": [
+          {
+            "type": "pdf",
+            "file": "wire-harness/product-11-drawing-1.pdf",
+            "name": "EY.003.0610 XHB-9P"
+          },
+          {
+            "type": "pdf",
+            "file": "wire-harness/product-11-drawing-2.pdf",
+            "name": "EY.012.0017-0018"
+          }
+        ]
+      },
+      {
+        "index": 6,
+        "name": {
+          "en": "51005/JC15 Connector Wire Harness",
+          "ja": "51005/JC15 コネクタワイヤーハーネス",
+          "ru": "Жгут проводов с разъемом 51005/JC15",
+          "pt": "Chicote de Fios com Conector 51005/JC15",
+          "zh": "51005/JC15连接器线束"
+        },
+        "file": "wire-harness/product-13-compressed.jpg",
+        "drawings": [
+          {
+            "type": "pdf",
+            "file": "wire-harness/product-13-drawing-1.pdf",
+            "name": "EY.125.0014 51006-3P+JC20-3P"
+          }
+        ]
+      },
+      {
+        "index": 7,
+        "name": {
+          "en": "GH DC Connector Wire Harness",
+          "ja": "GH DCコネクタワイヤーハーネス",
+          "ru": "Жгут проводов с разъемом GH DC",
+          "pt": "Chicote de Fios com Conector GH DC",
+          "zh": "GH端子DC连接器线束"
+        },
+        "file": "wire-harness/product-20-compressed.jpg",
+        "drawings": [
+          {
+            "type": "pdf",
+            "file": "wire-harness/product-20-drawing-1.pdf",
+            "name": "EY.014.0107 6015448600DC"
+          }
+        ]
+      },
+      {
+        "index": 8,
         "name": {
           "en": "1",
           "ja": "1",
@@ -1953,7 +2106,7 @@
         "file": "products/Wire Harnesses/1.webp"
       },
       {
-        "index": 1,
+        "index": 9,
         "name": {
           "en": "2",
           "ja": "2",
@@ -1963,7 +2116,7 @@
         "file": "products/Wire Harnesses/2.webp"
       },
       {
-        "index": 2,
+        "index": 10,
         "name": {
           "en": "3",
           "ja": "3",
@@ -1973,7 +2126,7 @@
         "file": "products/Wire Harnesses/3.webp"
       },
       {
-        "index": 3,
+        "index": 11,
         "name": {
           "en": "4",
           "ja": "4",
@@ -1983,7 +2136,7 @@
         "file": "products/Wire Harnesses/4.webp"
       },
       {
-        "index": 4,
+        "index": 12,
         "name": {
           "en": "5",
           "ja": "5",
@@ -1993,7 +2146,7 @@
         "file": "products/Wire Harnesses/5.webp"
       },
       {
-        "index": 5,
+        "index": 13,
         "name": {
           "en": "6",
           "ja": "6",
@@ -2003,7 +2156,7 @@
         "file": "products/Wire Harnesses/6.webp"
       },
       {
-        "index": 6,
+        "index": 14,
         "name": {
           "en": "7",
           "ja": "7",
@@ -2013,7 +2166,7 @@
         "file": "products/Wire Harnesses/7.webp"
       },
       {
-        "index": 7,
+        "index": 15,
         "name": {
           "en": "8",
           "ja": "8",

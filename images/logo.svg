@@ -25,26 +25,26 @@
   <line x1="150" y1="30" x2="185" y2="15" stroke="url(#logoGradient)" stroke-width="0.5" opacity="0.3"/>
   <line x1="150" y1="30" x2="185" y2="45" stroke="url(#logoGradient)" stroke-width="0.5" opacity="0.3"/>
   
-  <!-- XMCN Text with tech style -->
+  <!-- CNXM Text with tech style -->
   <g filter="url(#glow)">
-    <!-- X -->
-    <path d="M 50 20 L 65 40 M 65 20 L 50 40" stroke="url(#logoGradient)" stroke-width="4" stroke-linecap="round" fill="none"/>
-    <circle cx="50" cy="20" r="2.5" fill="#00d4ff"/>
+    <!-- C -->
+    <path d="M 65 20 Q 50 20 50 30 Q 50 40 65 40" stroke="url(#logoGradient)" stroke-width="4" stroke-linecap="round" fill="none"/>
+    <circle cx="65" cy="20" r="2.5" fill="#00d4ff"/>
     <circle cx="65" cy="40" r="2.5" fill="#00d4ff"/>
     
-    <!-- M -->
-    <path d="M 75 40 L 75 20 L 85 32 L 95 20 L 95 40" stroke="url(#logoGradient)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-    <circle cx="75" cy="20" r="2.5" fill="#00d4ff"/>
-    <circle cx="95" cy="20" r="2.5" fill="#00d4ff"/>
-    
-    <!-- C -->
-    <path d="M 120 20 Q 105 20 105 30 Q 105 40 120 40" stroke="url(#logoGradient)" stroke-width="4" stroke-linecap="round" fill="none"/>
-    <circle cx="120" cy="20" r="2.5" fill="#00d4ff"/>
-    <circle cx="120" cy="40" r="2.5" fill="#00d4ff"/>
-    
     <!-- N -->
-    <path d="M 130 40 L 130 20 L 145 40 L 145 20" stroke="url(#logoGradient)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-    <circle cx="130" cy="20" r="2.5" fill="#00d4ff"/>
+    <path d="M 75 40 L 75 20 L 90 40 L 90 20" stroke="url(#logoGradient)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <circle cx="75" cy="20" r="2.5" fill="#00d4ff"/>
+    <circle cx="90" cy="20" r="2.5" fill="#00d4ff"/>
+    
+    <!-- X -->
+    <path d="M 100 20 L 115 40 M 115 20 L 100 40" stroke="url(#logoGradient)" stroke-width="4" stroke-linecap="round" fill="none"/>
+    <circle cx="100" cy="20" r="2.5" fill="#00d4ff"/>
+    <circle cx="115" cy="40" r="2.5" fill="#00d4ff"/>
+    
+    <!-- M -->
+    <path d="M 125 40 L 125 20 L 135 32 L 145 20 L 145 40" stroke="url(#logoGradient)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <circle cx="125" cy="20" r="2.5" fill="#00d4ff"/>
     <circle cx="145" cy="20" r="2.5" fill="#00d4ff"/>
   </g>
   

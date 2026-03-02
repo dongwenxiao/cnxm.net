@@ -113,7 +113,179 @@ document.addEventListener('DOMContentLoaded', () => {
         name.textContent = displayName;
         item.appendChild(name);
 
+        // Add click event to open modal
+        item.addEventListener('click', () => {
+            openProductModal(prod);
+        });
+        item.style.cursor = 'pointer';
+
         return item;
+    }
+
+    // Create and open product modal
+    function openProductModal(prod) {
+        const displayName = getProductDisplayName(prod);
+        const imageSrc = `images/${prod.file}`;
+        const hasDrawings = prod.drawings && prod.drawings.length > 0;
+
+        // Remove existing modal if any
+        const existingModal = document.getElementById('productModal');
+        if (existingModal) {
+            existingModal.remove();
+        }
+
+        // Create modal with engineering drawings section
+        const modal = document.createElement('div');
+        modal.id = 'productModal';
+        modal.className = 'product-modal';
+        
+        // Build engineering drawings HTML
+        let drawingsHTML = '';
+        if (hasDrawings) {
+            drawingsHTML = `
+                <div class="modal-drawings-section">
+                    <h4 class="drawings-title"><i class="fas fa-drafting-compass"></i> <span data-i18n="product_engineering_drawings">Engineering Drawings</span></h4>
+                    <div class="drawings-thumbnails">
+                        ${prod.drawings.map((drawing, idx) => `
+                            <div class="drawing-thumb ${idx === 0 ? 'active' : ''}" data-index="${idx}">
+                                <i class="fas ${drawing.type === 'pdf' ? 'fa-file-pdf' : 'fa-image'}"></i>
+                                <span>${drawing.name}</span>
+                            </div>
+                        `).join('')}
+                    </div>
+                    <div class="drawings-viewer">
+                        ${prod.drawings.map((drawing, idx) => {
+                            const drawingPath = `images/${drawing.file}`;
+                            if (drawing.type === 'pdf') {
+                                return `
+                                    <div class="drawing-item ${idx === 0 ? 'active' : ''}" data-index="${idx}">
+                                        <embed src="${drawingPath}" type="application/pdf" width="100%" height="600px" />
+                                    </div>
+                                `;
+                            } else if (drawing.type === 'png' || drawing.type === 'jpg') {
+                                return `
+                                    <div class="drawing-item ${idx === 0 ? 'active' : ''}" data-index="${idx}">
+                                        <img src="${drawingPath}" alt="${drawing.name}" class="drawing-image">
+                                    </div>
+                                `;
+                            } else {
+                                return `
+                                    <div class="drawing-item ${idx === 0 ? 'active' : ''}" data-index="${idx}">
+                                        <div class="drawing-unavailable">
+                                            <i class="fas fa-file"></i>
+                                            <p data-i18n="product_drawing_format_unsupported">This file format cannot be previewed in browser</p>
+                                            <a href="${drawingPath}" download="${drawing.name}" class="btn btn-secondary">
+                                                <i class="fas fa-download"></i> <span data-i18n="product_download">Download</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                `;
+                            }
+                        }).join('')}
+                    </div>
+                </div>
+            `;
+        }
+
+        modal.innerHTML = `
+            <div class="modal-overlay"></div>
+            <div class="modal-content">
+                <button class="modal-close" aria-label="Close">
+                    <i class="fas fa-times"></i>
+                </button>
+                ${drawingsHTML}
+                <div class="modal-image-wrapper">
+                    <img src="${imageSrc}" alt="${displayName}" class="modal-image">
+                </div>
+                <div class="modal-info">
+                    <h3 class="modal-title">${displayName}</h3>
+                    <button class="btn btn-primary modal-download">
+                        <i class="fas fa-download"></i> <span data-i18n="product_download">Download Image</span>
+                    </button>
+                </div>
+            </div>
+        `;
+
+        document.body.appendChild(modal);
+
+        // Add event listeners
+        const closeBtn = modal.querySelector('.modal-close');
+        const overlay = modal.querySelector('.modal-overlay');
+        const downloadBtn = modal.querySelector('.modal-download');
+
+        const closeModal = () => {
+            modal.classList.add('closing');
+            setTimeout(() => modal.remove(), 300);
+        };
+
+        closeBtn.addEventListener('click', closeModal);
+        overlay.addEventListener('click', closeModal);
+
+        downloadBtn.addEventListener('click', () => {
+            downloadImage(imageSrc, displayName);
+        });
+
+        // Handle drawing thumbnails switching
+        if (hasDrawings) {
+            const thumbs = modal.querySelectorAll('.drawing-thumb');
+            const drawingItems = modal.querySelectorAll('.drawing-item');
+            
+            thumbs.forEach(thumb => {
+                thumb.addEventListener('click', () => {
+                    const index = parseInt(thumb.dataset.index);
+                    
+                    // Update active states
+                    thumbs.forEach(t => t.classList.remove('active'));
+                    drawingItems.forEach(d => d.classList.remove('active'));
+                    
+                    thumb.classList.add('active');
+                    drawingItems[index].classList.add('active');
+                });
+            });
+        }
+
+        // ESC key to close
+        const escHandler = (e) => {
+            if (e.key === 'Escape') {
+                closeModal();
+                document.removeEventListener('keydown', escHandler);
+            }
+        };
+        document.addEventListener('keydown', escHandler);
+
+        // Trigger animation
+        setTimeout(() => modal.classList.add('active'), 10);
+
+        // Translate texts if i18n is available
+        if (window.i18n && window.i18n.t) {
+            modal.querySelectorAll('[data-i18n]').forEach(el => {
+                const key = el.getAttribute('data-i18n');
+                const translation = window.i18n.t(key);
+                if (translation && translation !== key) {
+                    el.textContent = translation;
+                }
+            });
+        }
+    }
+
+    // Download image function
+    function downloadImage(url, filename) {
+        fetch(url)
+            .then(response => response.blob())
+            .then(blob => {
+                const blobUrl = window.URL.createObjectURL(blob);
+                const link = document.createElement('a');
+                link.href = blobUrl;
+                link.download = filename.replace(/[^a-z0-9]/gi, '_').toLowerCase() + '.jpg';
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+                window.URL.revokeObjectURL(blobUrl);
+            })
+            .catch(err => {
+                console.error('Download failed:', err);
+                alert('Download failed. Please try again.');
+            });
     }
 
     function buildCategory(slug, info, isActive) {

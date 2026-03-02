@@ -161,11 +161,22 @@ button {
     font-size: 1.5rem;
     font-weight: 700;
     color: var(--primary-color);
+    text-decoration: none;
+    transition: var(--transition-fast);
+}
+
+.logo:hover {
+    opacity: 0.8;
 }
 
 .logo img {
     height: 40px;
     width: auto;
+    transition: var(--transition-fast);
+}
+
+.logo:hover img {
+    transform: scale(1.05);
 }
 
 .logo i {
