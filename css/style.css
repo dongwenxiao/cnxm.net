@@ -349,7 +349,7 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(135deg, var(--dark-bg) 0%, var(--primary-dark) 100%);
+    background: var(--dark-bg);
     color: var(--text-white);
     padding: 8rem 2rem 6rem;
     overflow: hidden;
@@ -362,8 +362,9 @@ button {
     left: 0;
     right: 0;
     bottom: 0;
-    background: url('https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=1920&q=80') center/cover;
-    opacity: 0.1;
+    background: url('../images/hero-company-bg.jpg') center/cover no-repeat;
+    filter: blur(3px) brightness(0.45);
+    transform: scale(1.05);
     z-index: 0;
 }
 
@@ -373,7 +374,12 @@ button {
     left: 0;
     right: 0;
     bottom: 0;
-    background: radial-gradient(circle at center, transparent 0%, var(--dark-bg) 100%);
+    background: linear-gradient(
+        to bottom,
+        rgba(10, 20, 40, 0.55) 0%,
+        rgba(10, 20, 40, 0.45) 50%,
+        rgba(10, 20, 40, 0.7) 100%
+    );
     z-index: 1;
 }
 
