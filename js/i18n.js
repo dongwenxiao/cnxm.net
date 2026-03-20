@@ -774,12 +774,17 @@ function initI18n() {
 
 // Create language selector dropdown
 function createLanguageSelector() {
-    const navbar = document.querySelector('.nav-wrapper');
-    if (!navbar) return;
-    
-    const langSelector = document.createElement('div');
-    langSelector.className = 'language-selector';
-    langSelector.id = 'languageSelector';
+    // Use existing container from HTML if available, otherwise create one
+    let langSelector = document.getElementById('languageSelector');
+    if (!langSelector) {
+        const navbar = document.querySelector('.nav-wrapper');
+        if (!navbar) return;
+        langSelector = document.createElement('div');
+        langSelector.className = 'language-selector';
+        langSelector.id = 'languageSelector';
+        const mobileToggle = navbar.querySelector('.mobile-toggle');
+        navbar.insertBefore(langSelector, mobileToggle);
+    }
     
     const currentLangConfig = languageConfig[currentLang];
     
@@ -799,10 +804,6 @@ function createLanguageSelector() {
             `).join('')}
         </div>
     `;
-    
-    // Insert before mobile toggle
-    const mobileToggle = navbar.querySelector('.mobile-toggle');
-    navbar.insertBefore(langSelector, mobileToggle);
     
     // Add event listeners
     const langBtn = document.getElementById('langBtn');

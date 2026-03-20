@@ -130,13 +130,57 @@
 
     function navigateTo(p) {
         closeDropdown();
-        window.location.href = `products.html?cat=${p.catKey}&product=${p.index}`;
+        if (isOnProductsPage()) {
+            activateCategoryAndProduct(p.catKey, p.index);
+        } else {
+            window.location.href = 'products.html?cat=' + encodeURIComponent(p.catKey) + '&product=' + p.index;
+        }
+    }
+
+    function isOnProductsPage() {
+        var path = window.location.pathname;
+        return path.endsWith('products.html') || path.endsWith('products');
+    }
+
+    // ── Activate category tab & open product (works on products.html) ──
+    function activateCategoryAndProduct(catKey, productIndex) {
+        var poll = function (attempts) {
+            if (attempts > 50) return;
+            var tab = document.querySelector('.tab-btn[data-category="' + catKey + '"]');
+            if (!tab) {
+                setTimeout(function () { poll(attempts + 1); }, 150);
+                return;
+            }
+            tab.click();
+
+            if (productIndex == null) return;
+            setTimeout(function () { openProduct(catKey, productIndex, 0); }, 300);
+        };
+        poll(0);
+    }
+
+    function openProduct(catKey, productIndex, attempts) {
+        if (attempts > 50) return;
+        // Use getElementById which is safe for IDs with hyphens
+        var section = document.getElementById(catKey);
+        if (!section) {
+            setTimeout(function () { openProduct(catKey, productIndex, attempts + 1); }, 150);
+            return;
+        }
+        var items = section.querySelectorAll('.gallery-item');
+        var idx = parseInt(productIndex);
+        if (!items || !items[idx]) {
+            setTimeout(function () { openProduct(catKey, productIndex, attempts + 1); }, 150);
+            return;
+        }
+        items[idx].scrollIntoView({ behavior: 'smooth', block: 'center' });
+        setTimeout(function () { items[idx].click(); }, 350);
     }
 
     // ── Keyboard navigation ────────────────────────────────────────
     function handleArrowKeys(e) {
         if (!isOpen()) return;
-        const items = document.querySelectorAll('#sddList .sdd-item');
+        var items = document.querySelectorAll('#sddList .sdd-item');
         if (!items.length) return;
 
         if (e.key === 'ArrowDown') {
@@ -154,41 +198,39 @@
     }
 
     function highlightItem(items) {
-        items.forEach((el, i) => el.classList.toggle('sdd-active', i === activeIdx));
+        items.forEach(function (el, i) { el.classList.toggle('sdd-active', i === activeIdx); });
         if (items[activeIdx]) items[activeIdx].scrollIntoView({ block: 'nearest' });
     }
 
     // ── Bind to existing static HTML elements ──────────────────────
     function bindSearchBar() {
-        const bar = document.getElementById('searchBarNav');
-        const input = document.getElementById('searchInput');
-        const clearBtn = document.getElementById('searchClearBtn');
-        const submitBtn = document.getElementById('searchSubmitBtn');
+        var bar = document.getElementById('searchBarNav');
+        var input = document.getElementById('searchInput');
+        var clearBtn = document.getElementById('searchClearBtn');
+        var submitBtn = document.getElementById('searchSubmitBtn');
         if (!bar || !input || !clearBtn || !submitBtn) return;
 
-        // Apply correct i18n immediately
         input.placeholder = st('placeholder');
-        const btnText = bar.querySelector('.search-btn-text');
+        var btnText = bar.querySelector('.search-btn-text');
         if (btnText) btnText.textContent = st('btn');
 
         function triggerSearch() {
-            const q = input.value.trim();
+            var q = input.value.trim();
             if (!q) { closeDropdown(); return; }
             showDropdown(doSearch(q), q);
         }
 
-        let debounceTimer = null;
-        input.addEventListener('input', () => {
+        var debounceTimer = null;
+        input.addEventListener('input', function () {
             clearBtn.classList.toggle('visible', !!input.value);
             clearTimeout(debounceTimer);
-            debounceTimer = setTimeout(() => {
-                const q = input.value.trim();
-                if (!q) { closeDropdown(); return; }
+            debounceTimer = setTimeout(function () {
+                if (!input.value.trim()) { closeDropdown(); return; }
                 triggerSearch();
             }, 250);
         });
 
-        clearBtn.addEventListener('mousedown', (e) => {
+        clearBtn.addEventListener('mousedown', function (e) {
             e.preventDefault();
             input.value = '';
             clearBtn.classList.remove('visible');
@@ -196,58 +238,40 @@
             input.focus();
         });
 
-        submitBtn.addEventListener('click', () => {
+        submitBtn.addEventListener('click', function () {
             triggerSearch();
             input.focus();
         });
 
-        input.addEventListener('keydown', (e) => {
+        input.addEventListener('keydown', function (e) {
             if (e.key === 'Enter' && activeIdx < 0) triggerSearch();
             if (e.key === 'Escape') { closeDropdown(); input.blur(); }
             handleArrowKeys(e);
         });
 
-        document.addEventListener('click', (e) => {
+        document.addEventListener('click', function (e) {
             if (!bar.contains(e.target)) closeDropdown();
         });
 
-        window.addEventListener('languageChanged', () => {
+        window.addEventListener('languageChanged', function () {
             input.placeholder = st('placeholder');
-            const t = bar.querySelector('.search-btn-text');
+            var t = bar.querySelector('.search-btn-text');
             if (t) t.textContent = st('btn');
         });
     }
 
-    // ── Handle URL ?cat=&product= on products page ─────────────────
+    // ── Handle URL ?cat=&product= on products page load ────────────
     function handleSearchParams() {
-        const params = new URLSearchParams(window.location.search);
-        const cat = params.get('cat');
-        const productIdx = params.get('product');
+        var params = new URLSearchParams(window.location.search);
+        var cat = params.get('cat');
+        var productIdx = params.get('product');
         if (!cat) return;
-
-        const tryActivate = (a = 0) => {
-            if (a > 40) return;
-            const tab = document.querySelector(`.tab-btn[data-category="${cat}"]`);
-            if (!tab) { setTimeout(() => tryActivate(a + 1), 200); return; }
-            tab.click();
-            if (productIdx !== null) {
-                const tryOpen = (a2 = 0) => {
-                    if (a2 > 40) return;
-                    const cards = document.querySelectorAll(`#${cat} .gallery-item`);
-                    const card = cards[parseInt(productIdx)];
-                    if (!card) { setTimeout(() => tryOpen(a2 + 1), 200); return; }
-                    card.scrollIntoView({ behavior: 'smooth', block: 'center' });
-                    setTimeout(() => card.click(), 300);
-                };
-                setTimeout(() => tryOpen(), 400);
-            }
-        };
-        setTimeout(tryActivate, 500);
+        activateCategoryAndProduct(cat, productIdx);
     }
 
     function init() {
         bindSearchBar();
-        if (window.location.href.includes('products.html')) handleSearchParams();
+        if (isOnProductsPage()) handleSearchParams();
         loadProducts();
     }
 
