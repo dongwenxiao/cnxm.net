@@ -51,7 +51,7 @@
         return obj[l] || obj.en || obj.zh || Object.values(obj)[0] || '';
     }
 
-    // ── Dropdown rendering ─────────────────────────────────────────
+    // ── Dropdown ───────────────────────────────────────────────────
     function showDropdown(results, query) {
         const dropdown = document.getElementById('searchDropdown');
         if (!dropdown) return;
@@ -73,7 +73,6 @@
         const q = query.trim();
         const re = new RegExp(`(${q.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
 
-        // header
         const header = document.createElement('div');
         header.className = 'sdd-header';
         header.innerHTML = `
@@ -81,7 +80,6 @@
             <button class="sdd-close-btn" id="sddCloseBtn"><i class="fas fa-times"></i></button>`;
         dropdown.appendChild(header);
 
-        // scrollable list
         const list = document.createElement('div');
         list.className = 'sdd-list';
         list.id = 'sddList';
@@ -105,11 +103,7 @@
                 </div>
                 <i class="fas fa-chevron-right sdd-arrow"></i>`;
 
-            item.addEventListener('mousedown', (e) => {
-                e.preventDefault();
-                navigateTo(p);
-            });
-
+            item.addEventListener('mousedown', (e) => { e.preventDefault(); navigateTo(p); });
             list.appendChild(item);
         });
 
@@ -139,7 +133,7 @@
         window.location.href = `products.html?cat=${p.catKey}&product=${p.index}`;
     }
 
-    // ── Keyboard nav ───────────────────────────────────────────────
+    // ── Keyboard navigation ────────────────────────────────────────
     function handleArrowKeys(e) {
         if (!isOpen()) return;
         const items = document.querySelectorAll('#sddList .sdd-item');
@@ -164,34 +158,18 @@
         if (items[activeIdx]) items[activeIdx].scrollIntoView({ block: 'nearest' });
     }
 
-    // ── Build & inject search bar ──────────────────────────────────
-    function createSearchBar() {
-        const navWrapper = document.querySelector('.nav-wrapper');
-        if (!navWrapper) return;
-
-        const bar = document.createElement('div');
-        bar.className = 'search-bar-nav';
-        bar.id = 'searchBarNav';
-        bar.innerHTML = `
-            <div class="search-bar-inner">
-                <span class="search-icon-prefix"><i class="fas fa-search"></i></span>
-                <input type="text" id="searchInput" class="search-input-nav"
-                    placeholder="${st('placeholder')}" autocomplete="off" spellcheck="false">
-                <button class="search-clear-btn" id="searchClearBtn"><i class="fas fa-times"></i></button>
-                <button class="search-submit-btn" id="searchSubmitBtn" type="button">
-                    <i class="fas fa-search"></i>
-                    <span class="search-btn-text">${st('btn')}</span>
-                </button>
-            </div>
-            <div class="search-dropdown" id="searchDropdown"></div>`;
-
-        const langSelector = document.getElementById('languageSelector');
-        const mobileToggle = navWrapper.querySelector('.mobile-toggle');
-        navWrapper.insertBefore(bar, langSelector || mobileToggle);
-
+    // ── Bind to existing static HTML elements ──────────────────────
+    function bindSearchBar() {
+        const bar = document.getElementById('searchBarNav');
         const input = document.getElementById('searchInput');
         const clearBtn = document.getElementById('searchClearBtn');
         const submitBtn = document.getElementById('searchSubmitBtn');
+        if (!bar || !input || !clearBtn || !submitBtn) return;
+
+        // Apply correct i18n immediately
+        input.placeholder = st('placeholder');
+        const btnText = bar.querySelector('.search-btn-text');
+        if (btnText) btnText.textContent = st('btn');
 
         function triggerSearch() {
             const q = input.value.trim();
@@ -199,10 +177,8 @@
             showDropdown(doSearch(q), q);
         }
 
-        // Real-time search as user types (debounced)
         let debounceTimer = null;
         input.addEventListener('input', () => {
-            // Show/hide clear button
             clearBtn.classList.toggle('visible', !!input.value);
             clearTimeout(debounceTimer);
             debounceTimer = setTimeout(() => {
@@ -212,7 +188,6 @@
             }, 250);
         });
 
-        // Clear button
         clearBtn.addEventListener('mousedown', (e) => {
             e.preventDefault();
             input.value = '';
@@ -221,28 +196,24 @@
             input.focus();
         });
 
-        // Submit button
         submitBtn.addEventListener('click', () => {
             triggerSearch();
             input.focus();
         });
 
-        // Keyboard
         input.addEventListener('keydown', (e) => {
             if (e.key === 'Enter' && activeIdx < 0) triggerSearch();
             if (e.key === 'Escape') { closeDropdown(); input.blur(); }
             handleArrowKeys(e);
         });
 
-        // Close when clicking outside
         document.addEventListener('click', (e) => {
             if (!bar.contains(e.target)) closeDropdown();
         });
 
-        // i18n update
         window.addEventListener('languageChanged', () => {
             input.placeholder = st('placeholder');
-            const t = document.querySelector('.search-btn-text');
+            const t = bar.querySelector('.search-btn-text');
             if (t) t.textContent = st('btn');
         });
     }
@@ -275,7 +246,7 @@
     }
 
     function init() {
-        createSearchBar();
+        bindSearchBar();
         if (window.location.href.includes('products.html')) handleSearchParams();
         loadProducts();
     }

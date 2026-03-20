@@ -26,6 +26,17 @@
                     <li><a href="products.html" data-i18n="nav_products">Products</a></li>
                     <li><a href="contact.html" data-i18n="nav_contact">Contact</a></li>
                 </ul>
+                <div class="search-bar-nav" id="searchBarNav">
+                    <div class="search-bar-inner">
+                        <span class="search-icon-prefix"><i class="fas fa-search"></i></span>
+                        <input type="text" id="searchInput" class="search-input-nav" placeholder="Search products..." autocomplete="off" spellcheck="false">
+                        <button class="search-clear-btn" id="searchClearBtn"><i class="fas fa-times"></i></button>
+                        <button class="search-submit-btn" id="searchSubmitBtn" type="button">
+                            <i class="fas fa-search"></i><span class="search-btn-text">Search</span>
+                        </button>
+                    </div>
+                    <div class="search-dropdown" id="searchDropdown"></div>
+                </div>
                 <button class="mobile-toggle" id="mobileToggle">
                     <span></span>
                     <span></span>
