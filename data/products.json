@@ -2174,6 +2174,94 @@
           "pt": "8"
         },
         "file": "products/Wire Harnesses/8.webp"
+      },
+      {
+        "index": 16,
+        "name": {
+          "en": "PHD Instrument Wire Harness",
+          "ja": "PHD計器ワイヤーハーネス",
+          "ru": "Жгут проводов PHD для приборов",
+          "pt": "Chicote de Fios PHD para Instrumentos",
+          "zh": "PHD仪表线束"
+        },
+        "file": "products/Wire Harnesses/9.webp"
+      },
+      {
+        "index": 17,
+        "name": {
+          "en": "PH Dual-Head Ribbon Cable",
+          "ja": "PH両頭フラットケーブル",
+          "ru": "Ленточный кабель PH с двумя головками",
+          "pt": "Cabo Flat PH com Duas Cabeças",
+          "zh": "PH双头排线"
+        },
+        "file": "products/Wire Harnesses/10.webp"
+      },
+      {
+        "index": 18,
+        "name": {
+          "en": "XT30 Battery Charging Wire Harness",
+          "ja": "XT30バッテリー充電ワイヤーハーネス",
+          "ru": "Жгут проводов для зарядки аккумулятора XT30",
+          "pt": "Chicote de Fios para Carregamento de Bateria XT30",
+          "zh": "XT30电池充电线束"
+        },
+        "file": "products/Wire Harnesses/11.webp"
+      },
+      {
+        "index": 19,
+        "name": {
+          "en": "Automotive Wire Harness with Magnetic Ring",
+          "ja": "磁気リング付き自動車ワイヤーハーネス",
+          "ru": "Автомобильный жгут проводов с магнитным кольцом",
+          "pt": "Chicote de Fios Automotivo com Anel Magnético",
+          "zh": "带磁环汽车线束"
+        },
+        "file": "products/Wire Harnesses/12.webp"
+      },
+      {
+        "index": 20,
+        "name": {
+          "en": "Automotive Motor Wire",
+          "ja": "自動車モーターワイヤー",
+          "ru": "Провод автомобильного двигателя",
+          "pt": "Fio de Motor Automotivo",
+          "zh": "汽车电机线"
+        },
+        "file": "products/Wire Harnesses/13.webp"
+      },
+      {
+        "index": 21,
+        "name": {
+          "en": "Automotive Wire Harness",
+          "ja": "自動車ワイヤーハーネス",
+          "ru": "Автомобильный жгут проводов",
+          "pt": "Chicote de Fios Automotivo",
+          "zh": "汽车线束"
+        },
+        "file": "products/Wire Harnesses/14.webp"
+      },
+      {
+        "index": 22,
+        "name": {
+          "en": "Automotive Lighting Wire Harness",
+          "ja": "自動車照明ワイヤーハーネス",
+          "ru": "Жгут проводов автомобильного освещения",
+          "pt": "Chicote de Fios de Iluminação Automotiva",
+          "zh": "汽车车灯线束"
+        },
+        "file": "products/Wire Harnesses/15.webp"
+      },
+      {
+        "index": 23,
+        "name": {
+          "en": "Power Filter Wire Harness",
+          "ja": "電源フィルターワイヤーハーネス",
+          "ru": "Жгут проводов фильтра питания",
+          "pt": "Chicote de Fios do Filtro de Energia",
+          "zh": "电源滤波器线束"
+        },
+        "file": "products/Wire Harnesses/16.webp"
       }
     ]
   }

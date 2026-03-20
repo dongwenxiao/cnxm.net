@@ -6,6 +6,7 @@
 :root {
     /* Primary Colors */
     --primary-color: #0066cc;
+    --primary-rgb: 0, 102, 204;
     --primary-dark: #004c99;
     --primary-light: #3385d6;
     --secondary-color: #00a8e8;
@@ -149,8 +150,8 @@ button {
 .nav-wrapper {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     padding: 1rem 0;
+    gap: 1rem;
 }
 
 .logo {
@@ -235,7 +236,8 @@ button {
 /* Language Selector */
 .language-selector {
     position: relative;
-    margin-left: 1.5rem;
+    margin-left: 0;
+    flex-shrink: 0;
 }
 
 .lang-btn {
@@ -2204,5 +2206,333 @@ button {
     
     .stat-number {
         font-size: 2rem;
+    }
+}
+
+/* ==========================================
+   Global Product Search — Inline Navbar Bar
+   ========================================== */
+
+/* Search bar wrapper in navbar */
+.search-bar-nav {
+    flex: 1;
+    min-width: 160px;
+    max-width: 380px;
+    position: relative;
+    flex-shrink: 1;
+}
+
+/* ── Input + button row ────────────────── */
+.search-bar-inner {
+    display: flex;
+    align-items: center;
+    height: 38px;
+    border: 1.5px solid var(--border-color);
+    border-radius: 20px;
+    overflow: hidden;
+    background: var(--light-bg);
+    transition: border-color 0.25s, box-shadow 0.25s, background 0.25s;
+}
+
+.search-bar-inner:focus-within {
+    border-color: var(--primary-color);
+    background: var(--white);
+    box-shadow: 0 0 0 3px rgba(var(--primary-rgb), 0.12);
+}
+
+/* magnifying-glass icon inside the field */
+.search-icon-prefix {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 14px;
+    color: var(--text-light);
+    font-size: 0.82rem;
+    flex-shrink: 0;
+    pointer-events: none;
+    transition: color 0.2s;
+}
+
+.search-bar-inner:focus-within .search-icon-prefix {
+    color: var(--primary-color);
+}
+
+.search-input-nav {
+    flex: 1;
+    min-width: 0;
+    border: none;
+    background: transparent;
+    padding: 0 0.5rem;
+    font-size: 0.85rem;
+    font-family: var(--font-primary);
+    color: var(--text-primary);
+    outline: none;
+    height: 100%;
+}
+
+.search-input-nav::placeholder {
+    color: var(--text-secondary);
+    font-weight: 400;
+}
+
+/* Clear (×) button inside input */
+.search-clear-btn {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    margin-right: 4px;
+    border: none;
+    border-radius: 50%;
+    background: var(--border-color);
+    color: var(--white);
+    font-size: 0.55rem;
+    cursor: pointer;
+    flex-shrink: 0;
+    transition: background 0.15s;
+}
+
+.search-clear-btn.visible {
+    display: flex;
+}
+
+.search-clear-btn:hover {
+    background: var(--text-secondary);
+}
+
+/* Submit / search button */
+.search-submit-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
+    height: 100%;
+    padding: 0 16px;
+    background: linear-gradient(135deg, var(--primary-color), var(--primary-dark));
+    color: var(--white);
+    border: none;
+    border-radius: 0 18px 18px 0;
+    cursor: pointer;
+    font-size: 0.78rem;
+    font-weight: 600;
+    font-family: var(--font-primary);
+    letter-spacing: 0.02em;
+    white-space: nowrap;
+    flex-shrink: 0;
+    transition: filter 0.15s, transform 0.1s;
+}
+
+.search-submit-btn:hover {
+    filter: brightness(1.1);
+}
+
+.search-submit-btn:active {
+    transform: scale(0.97);
+}
+
+.search-submit-btn i {
+    font-size: 0.72rem;
+}
+
+/* ── Dropdown results panel ────────────── */
+.search-dropdown {
+    position: absolute;
+    top: calc(100% + 8px);
+    left: -20px;
+    right: -20px;
+    min-width: 360px;
+    background: var(--white);
+    border: 1px solid var(--border-color);
+    border-radius: 14px;
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.16);
+    z-index: 2000;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-6px);
+    transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s;
+    display: flex;
+    flex-direction: column;
+    max-height: 0;
+    overflow: hidden;
+}
+
+.search-dropdown.open {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    max-height: min(460px, calc(100vh - 120px));
+}
+
+/* Dropdown header bar */
+.sdd-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.6rem 1rem;
+    border-bottom: 1px solid var(--border-color);
+    flex-shrink: 0;
+}
+
+.sdd-header-info {
+    font-size: 0.78rem;
+    color: var(--text-secondary);
+    font-weight: 500;
+}
+
+.sdd-header-info strong {
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+.sdd-close-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 26px;
+    height: 26px;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    background: transparent;
+    color: var(--text-secondary);
+    cursor: pointer;
+    font-size: 0.7rem;
+    transition: all 0.15s;
+    flex-shrink: 0;
+}
+
+.sdd-close-btn:hover {
+    background: var(--primary-color);
+    color: var(--white);
+    border-color: var(--primary-color);
+}
+
+/* Scrollable results list */
+.sdd-list {
+    flex: 1;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    padding: 0.35rem 0;
+}
+
+.sdd-list::-webkit-scrollbar { width: 5px; }
+.sdd-list::-webkit-scrollbar-track { background: transparent; margin: 6px 0; }
+.sdd-list::-webkit-scrollbar-thumb { background: var(--border-color); border-radius: 3px; }
+.sdd-list::-webkit-scrollbar-thumb:hover { background: var(--text-light); }
+
+/* "No results" */
+.sdd-no-result {
+    padding: 2rem 1rem;
+    text-align: center;
+    color: var(--text-secondary);
+    font-size: 0.88rem;
+}
+
+.sdd-no-result i {
+    display: block;
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+    color: var(--border-color);
+}
+
+/* ── Each result row ───────────────────── */
+.sdd-item {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.55rem 1rem;
+    cursor: pointer;
+    transition: background 0.13s;
+    text-decoration: none;
+    color: inherit;
+}
+
+.sdd-item:hover,
+.sdd-item.sdd-active {
+    background: var(--light-bg);
+}
+
+.sdd-img {
+    width: 44px;
+    height: 44px;
+    border-radius: 8px;
+    overflow: hidden;
+    background: var(--light-bg);
+    border: 1px solid var(--border-color);
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sdd-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sdd-text {
+    flex: 1;
+    min-width: 0;
+}
+
+.sdd-name {
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: var(--text-primary);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 0.1rem;
+    line-height: 1.4;
+}
+
+.sdd-name mark {
+    background: rgba(var(--primary-rgb), 0.18);
+    color: var(--primary-color);
+    border-radius: 2px;
+    padding: 0 2px;
+    font-weight: 600;
+}
+
+.sdd-cat {
+    font-size: 0.72rem;
+    color: var(--text-secondary);
+}
+
+.sdd-cat i {
+    font-size: 0.65rem;
+    margin-right: 0.2rem;
+    opacity: 0.7;
+}
+
+.sdd-arrow {
+    font-size: 0.65rem;
+    color: var(--text-light);
+    flex-shrink: 0;
+    transition: transform 0.15s, color 0.15s;
+}
+
+.sdd-item:hover .sdd-arrow {
+    color: var(--primary-color);
+    transform: translateX(2px);
+}
+
+/* ── Responsive ────────────────────────── */
+@media (max-width: 768px) {
+    .search-bar-nav {
+        display: none;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .search-bar-nav {
+        max-width: 260px;
+    }
+    .search-submit-btn .search-btn-text {
+        display: none;
+    }
+    .search-submit-btn {
+        padding: 0 12px;
     }
 }
