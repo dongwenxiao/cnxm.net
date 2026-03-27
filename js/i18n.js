@@ -766,10 +766,8 @@ function initI18n() {
     // Set current language
     setLanguage(currentLang);
     
-    // Create language selector if not exists
-    if (!document.getElementById('languageSelector')) {
-        createLanguageSelector();
-    }
+    // Populate language selector (uses existing container or creates one)
+    createLanguageSelector();
 }
 
 // Create language selector dropdown
