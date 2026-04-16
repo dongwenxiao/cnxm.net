@@ -174,6 +174,8 @@ const translations = {
         contact_info_title: "Contact Information",
         contact_info_subtitle: "Feel free to reach out via email:",
         contact_email_label: "Email",
+        contact_whatsapp_label: "WhatsApp",
+        contact_whatsapp_line: "Contact us WhatsApp: 8617757335306",
         contact_follow: "Follow Us",
         contact_coming_soon: "Coming Soon",
         contact_map_title: "Our Location",
@@ -321,6 +323,9 @@ const translations = {
         footer_contact_title: "お問い合わせ先",
         footer_rights: "All rights reserved.",
         
+        contact_whatsapp_label: "WhatsApp",
+        contact_whatsapp_line: "お問い合わせ WhatsApp: 8617757335306",
+        
         // 会社名
         company_name: "浙江宣盟電子有限公司",
         company_name_short: "宣盟電子"
@@ -424,6 +429,9 @@ const translations = {
         footer_contact_title: "Контактная информация",
         footer_rights: "Все права защищены.",
         
+        contact_whatsapp_label: "WhatsApp",
+        contact_whatsapp_line: "Свяжитесь с нами WhatsApp: 8617757335306",
+        
         // Название компании
         company_name: "Zhejiang Xuanmeng Electronics Co., Ltd.",
         company_name_short: "Xuanmeng Electronics"
@@ -526,6 +534,9 @@ const translations = {
         footer_link4: "Certificados de Qualidade",
         footer_contact_title: "Informações de Contato",
         footer_rights: "Todos os direitos reservados.",
+        
+        contact_whatsapp_label: "WhatsApp",
+        contact_whatsapp_line: "Entre em contato conosco WhatsApp: 8617757335306",
         
         // Nome da empresa
         company_name: "Zhejiang Xuanmeng Electronics Co., Ltd.",
@@ -704,6 +715,8 @@ const translations = {
         contact_info_title: "联系信息",
         contact_info_subtitle: "欢迎通过电子邮件联系我们：",
         contact_email_label: "电子邮箱",
+        contact_whatsapp_label: "WhatsApp",
+        contact_whatsapp_line: "联系我们 WhatsApp：8617757335306",
         contact_follow: "关注我们",
         contact_coming_soon: "即将推出",
         contact_map_title: "我们的位置",
