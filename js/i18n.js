@@ -176,6 +176,7 @@ const translations = {
         contact_email_label: "Email",
         contact_whatsapp_label: "WhatsApp",
         contact_whatsapp_line: "Contact us WhatsApp: 8617757335306",
+        contact_whatsapp_btn: "Chat on WhatsApp",
         contact_follow: "Follow Us",
         contact_coming_soon: "Coming Soon",
         contact_map_title: "Our Location",
@@ -325,6 +326,7 @@ const translations = {
         
         contact_whatsapp_label: "WhatsApp",
         contact_whatsapp_line: "お問い合わせ WhatsApp: 8617757335306",
+        contact_whatsapp_btn: "WhatsAppでチャット",
         
         // 会社名
         company_name: "浙江宣盟電子有限公司",
@@ -431,6 +433,7 @@ const translations = {
         
         contact_whatsapp_label: "WhatsApp",
         contact_whatsapp_line: "Свяжитесь с нами WhatsApp: 8617757335306",
+        contact_whatsapp_btn: "Написать в WhatsApp",
         
         // Название компании
         company_name: "Zhejiang Xuanmeng Electronics Co., Ltd.",
@@ -537,6 +540,7 @@ const translations = {
         
         contact_whatsapp_label: "WhatsApp",
         contact_whatsapp_line: "Entre em contato conosco WhatsApp: 8617757335306",
+        contact_whatsapp_btn: "Conversar no WhatsApp",
         
         // Nome da empresa
         company_name: "Zhejiang Xuanmeng Electronics Co., Ltd.",
@@ -717,6 +721,7 @@ const translations = {
         contact_email_label: "电子邮箱",
         contact_whatsapp_label: "WhatsApp",
         contact_whatsapp_line: "联系我们 WhatsApp：8617757335306",
+        contact_whatsapp_btn: "WhatsApp 在线咨询",
         contact_follow: "关注我们",
         contact_coming_soon: "即将推出",
         contact_map_title: "我们的位置",

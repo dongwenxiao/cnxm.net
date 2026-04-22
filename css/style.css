@@ -2536,3 +2536,54 @@ button {
         padding: 0 12px;
     }
 }
+
+/* ==========================================
+   WhatsApp Button in Page Header
+   ========================================== */
+.whatsapp-header-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.55rem;
+    padding: 0.7rem 1.6rem;
+    background: #25D366;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: var(--font-primary);
+    text-decoration: none;
+    letter-spacing: 0.02em;
+    transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
+    box-shadow: 0 4px 16px rgba(37, 211, 102, 0.35);
+}
+
+.whatsapp-header-btn i {
+    font-size: 1.3rem;
+    line-height: 1;
+}
+
+.whatsapp-header-btn:hover {
+    background: #1ebe5d;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(37, 211, 102, 0.45);
+    color: #fff;
+    text-decoration: none;
+}
+
+.whatsapp-header-btn:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 8px rgba(37, 211, 102, 0.3);
+}
+
+/* 联系信息卡片内的 WhatsApp 链接 */
+.contact-whatsapp-link {
+    color: #25D366;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.15s;
+}
+
+.contact-whatsapp-link:hover {
+    color: #1ebe5d;
+    text-decoration: underline;
+}
