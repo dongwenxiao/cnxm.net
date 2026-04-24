@@ -13,10 +13,12 @@
       gtag('config', 'AW-18044298129');
     </script>
     
-    <!-- 产品转化页面的事件代码片段 -->
+    <!-- Event snippet for 产品 conversion page -->
     <script>
       window.addEventListener('DOMContentLoaded', function(event) {
-        gtag('event', 'conversion', { send_to: 'AW-18044298129/NLLhCMyrs6AcEJHHmJxI' });
+        if(window.location.pathname.includes("/products")){
+          gtag('event', 'conversion', {'send_to': 'AW-18044298129/NLLhCMyrs6AcEJHHmJxD'});
+        }
       });
     </script>
     <title>Products | CNXM - Connectors & Wire Harnesses</title>

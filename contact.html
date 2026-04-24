@@ -13,10 +13,12 @@
       gtag('config', 'AW-18044298129');
     </script>
     
-    <!-- 联系我们转换页面的事件片段 -->
+    <!-- Event snippet for Contact Us conversion page -->
     <script>
       window.addEventListener('DOMContentLoaded', function(event) {
-        gtag('event', 'conversion', { send_to: 'AW-18044298129' });
+        if(window.location.pathname.includes("/contact")){
+          gtag('event', 'conversion', {'send_to': 'AW-18044298129/RU9ECM-rs6AcEJHHmJxD'});
+        }
       });
     </script>
     

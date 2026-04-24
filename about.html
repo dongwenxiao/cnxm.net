@@ -13,10 +13,12 @@
       gtag('config', 'AW-18044298129');
     </script>
     
-    <!-- 关于我们转换页面的事件片段 -->
+    <!-- Event snippet for About Us conversion page -->
     <script>
       window.addEventListener('DOMContentLoaded', function(event) {
-        gtag('event', 'conversion', { send_to: 'AW-18044298129/f175CMgss6AcEJHHmJxI' });
+        if(window.location.pathname.includes("/about")){
+          gtag('event', 'conversion', {'send_to': 'AW-18044298129/f175CMqss6AcEJHHmJxD'});
+        }
       });
     </script>
     <title>About Us | Xuanmeng Electronics</title>
