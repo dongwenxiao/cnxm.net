@@ -44,7 +44,7 @@ function initContactForm() {
         btnLoading.style.display = 'inline-block';
         
         try {
-            const webhookUrl = 'https://open.feishu.cn/open-apis/bot/v2/hook/42e83c54-6d7d-463f-80f3-726ec644c964';
+            const webhookUrl = 'https://open.feishu.cn/open-apis/bot/v2/hook/9af84349-ea0c-4043-8e8f-979b99d82453';
             const text = [
                 '【New Inquiry】',
                 `Name: ${formData.name || '-'}`,
